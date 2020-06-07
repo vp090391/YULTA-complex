@@ -16,6 +16,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "author": "Vadim Prikhodko",
+  "e-mail": "vp090391@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git-https://github.com/vp090391/YULTA-complex.git"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
