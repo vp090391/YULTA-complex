@@ -1,0 +1,28 @@
+.header {
+    height: 100px;
+    background-color: #FAFAFA;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.logo {
+    width: auto;
+    height: 70%;
+}
+
+.logo a {
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -1000em;
+    outline: 0;
+    background-position: center center;
+    background-size: contain;
+    width: auto;
+    height: 100%;
+}

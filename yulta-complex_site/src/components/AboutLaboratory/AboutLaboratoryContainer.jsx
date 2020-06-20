@@ -1,5 +1,4 @@
 import React from 'react';
-import s from './AboutLaboratory.module.css'
 import AboutLaboratory from "./AboutLaboratory";
 import {connect} from "react-redux";
 
