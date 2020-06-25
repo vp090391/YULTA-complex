@@ -1,22 +1,30 @@
 .header {
     height: 100px;
     background-color: #FAFAFA;
+    padding: 0 6%;
+    font-family: Roboto, serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #44444A;
+    white-space: pre-line;
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(320px, 5fr) repeat(3,1fr auto);
+    grid-template-areas: "logo phoneImage phoneNumbers mailImage mail coordiantesImage coordinates";
+    grid-column-gap: 1%;
 }
 
 .header a {
     text-decoration: none;
+    color: #44444A;
 }
 
-.header ul {
-    list-style-type: none;
-}
-
-.logo {
+.logo_wrapper ,.phoneImage_wrapper, .mailImage_wrapper, .coordinatesImage_wrapper {
     width: auto;
-    height: 70%;
+    height: 50%;
 }
 
-.logo a {
+.logo, .phoneImage, .mailImage, .coordinatesImage {
     background-repeat: no-repeat;
     display: block;
     text-indent: -1000em;
@@ -25,4 +33,65 @@
     background-size: contain;
     width: auto;
     height: 100%;
+}
+
+.phoneNumbers {
+    grid-area: phoneNumbers;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.phoneNumbers li {
+    margin: 1% 0;
+}
+
+@media screen and (max-width: 767px){
+    .phoneNumbers_wrapper, .mail_wrapper, .coordinates_wrapper {
+        display: none;
+    }
+    .header {
+        grid-template-columns: minmax(320px, 5fr) repeat(3,1fr);
+        padding: 0 1%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        font-size: 0.6em;
+        padding: 0 2%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header {
+        height: 60px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 1fr;
+        padding: 0 1%;
+        grid-template-areas:
+                "logo logo logo"
+                "phoneImage mailImage coordiantesImage";
+    }
+    .header div{
+        height: 80%;
+    }
+    .phoneNumbers_wrapper, .mail_wrapper, .coordinates_wrapper {
+        font-size: 0.5em;
+        display: block;
+    }
+    .header div:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .header {
+        font-size: 0.45em;
+    }
+    .phoneNumbers li, .coordinates_wrapper{
+        line-height: 150%;
+    }
 }
