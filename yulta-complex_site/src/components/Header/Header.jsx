@@ -1,11 +1,10 @@
 import React from 'react';
-import s from './Header.module.css'
+import s from './Header.module.scss'
 
 const Header = (props) => {
     let state = props.header;
     return (
         <header className={s.header}>
-
             <div className={s.logo_wrapper}>
                 <a className={s.logo}
                    href={state.logo.href}

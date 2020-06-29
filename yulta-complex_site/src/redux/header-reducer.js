@@ -38,7 +38,7 @@ let initialState = {
     coordinates: {
         image: `url(${coordinatesImage})`,
         imageTitle: 'Местоположение',
-        href: 'geo:53.847473, 27.417095',
+        href: 'geo:53.847473,27.417095',
         valueForPage: "РБ, г. Минск \n Меньковский тракт 19 \n кабинет 106",
     },
 
