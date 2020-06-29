@@ -18,6 +18,22 @@
   color: #44444A;
 }
 
+.logo {
+  background-image: url("../../assets/Header/Logo.png");
+}
+
+.phoneImage {
+  background-image: url("../../assets/Header/Phone.png");
+}
+
+.mailImage {
+  background-image: url("../../assets/Header/Mail.png");
+}
+
+.coordinatesImage {
+  background-image: url("../../assets/Header/Coordinates.png");
+}
+
 .logo_wrapper, .phoneImage_wrapper, .mailImage_wrapper, .coordinatesImage_wrapper {
   width: auto;
   height: 50%;

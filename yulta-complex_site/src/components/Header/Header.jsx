@@ -8,8 +8,7 @@ const Header = (props) => {
             <div className={s.logo_wrapper}>
                 <a className={s.logo}
                    href={state.logo.href}
-                   title={state.logo.title}
-                   style={{backgroundImage: `${state.logo.imageUrl}`}}>
+                   title={state.logo.title}>
                    {state.logo.content}
                 </a>
             </div>
@@ -17,8 +16,7 @@ const Header = (props) => {
             <div className={s.phoneImage_wrapper}>
                 <a className={s.phoneImage}
                    href={state.phone.office.href}
-                   title={state.phone.phoneImageTitle}
-                   style={{backgroundImage: `${state.phone.phoneImage}`}}>
+                   title={state.phone.phoneImageTitle}>
                 </a>
             </div>
 
@@ -48,8 +46,7 @@ const Header = (props) => {
             <div className={s.coordinatesImage_wrapper}>
                 <a className={s.coordinatesImage}
                    href={state.coordinates.href}
-                   title={state.coordinates.imageTitle}
-                   style={{backgroundImage: `${state.coordinates.image}`}}>
+                   title={state.coordinates.imageTitle}>
                 </a>
             </div>
 

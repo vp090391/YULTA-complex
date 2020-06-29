@@ -1,17 +1,10 @@
-import logo from "../assets/Header/Logo.png";
-import phoneImage from "../assets/Header/Phone.png"
-import mailImage from "../assets/Header/Mail.png"
-import coordinatesImage from "../assets/Header/Geo.png"
-
 let initialState = {
     logo: {
         href: 'http://yulta.by/',
         title: 'yulta.by - О лаборатории',
         content: 'Испытательная строительная лаборатория ЮЛТА-комплекс',
-        imageUrl: `url(${logo})`,
     },
     phone: {
-        phoneImage: `url(${phoneImage})`,
         phoneImageTitle: 'Позвонить',
         office: {
             href: 'tel:+375175076853',
@@ -30,13 +23,11 @@ let initialState = {
         },
     },
     mail: {
-        image: `url(${mailImage})`,
         imageTitle: 'Написать письмо',
         href: 'mailto:info@yulta.by',
         valueForPage: 'info@yulta.by',
     },
     coordinates: {
-        image: `url(${coordinatesImage})`,
         imageTitle: 'Местоположение',
         href: 'geo:53.847473,27.417095',
         valueForPage: "РБ, г. Минск \n Меньковский тракт 19 \n кабинет 106",
