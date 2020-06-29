@@ -1,21 +1,22 @@
-.header {
-  height: 100px;
+.footer {
+  height: 60px;
   background-color: #FAFAFA;
   padding: 0 6%;
   font-family: Roboto, serif;
-  font-size: 1em;
+  font-size: 0.55em;
   font-weight: normal;
   color: #44444A;
   white-space: pre-line;
   display: grid;
   align-items: center;
-  grid-template-columns: minmax(320px, 5fr) repeat(3, 1fr auto);
+  grid-template-columns: 1fr 1fr 5fr 1fr 2fr 1fr 2fr 1fr 3fr 1fr 1fr;
   grid-template-areas: "logo phoneImage phoneNumbers mailImage mail coordiantesImage coordinates";
   grid-column-gap: 1%;
-}
-.header a {
-  text-decoration: none;
-  color: #44444A;
+
+  a {
+    text-decoration: none;
+    color: #44444A;
+  }
 }
 
 .logo {
@@ -34,9 +35,13 @@
   background-image: url("../../assets/Header/Coordinates.png");
 }
 
-.logo_wrapper, .phoneImage_wrapper, .mailImage_wrapper, .coordinatesImage_wrapper {
+.logo_wrapper ,.phoneImage_wrapper, .mailImage_wrapper, .coordinatesImage_wrapper {
   width: auto;
   height: 50%;
+}
+
+.logo_wrapper {
+  grid-column-start: 3;
 }
 
 .logo, .phoneImage, .mailImage, .coordinatesImage {
@@ -56,43 +61,44 @@
   margin: 0;
   padding: 0;
   width: fit-content;
-}
-.phoneNumbers li {
-  margin: 1% 0;
+
+  li {
+    margin: 1% 0;
+  }
 }
 
 @media screen and (max-width: 1140px) {
-  .header {
-    font-size: 0.6em;
+  .footer {
+    font-size: 0.45em;
     padding: 0 2%;
   }
-
   .phoneNumbers li {
     margin: 5% 0;
   }
-
   .coordinates_wrapper {
     line-height: 150%;
   }
 }
+
 @media screen and (max-width: 767px) {
-  .header {
+  .footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
     padding: 0 1%;
-    grid-template-areas: "logo logo logo" "phoneImage mailImage coordiantesImage";
-  }
-  .header div:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .header div {
-    height: 90%;
-  }
+    grid-template-areas:
+            "logo logo logo"
+            "phoneImage mailImage coordiantesImage";
 
+    div:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+
+    div {
+      height: 80%;
+    }
+  }
   .phoneNumbers_wrapper, .mail_wrapper, .coordinates_wrapper {
     display: none;
   }
 }
-
-/*# sourceMappingURL=Footer.module.css.map */

@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Nav from "./components/Nav/Nav";
 import AboutLaboratoryContainer from "./components/AboutLaboratory/AboutLaboratoryContainer";
-import Footer from "./components/Footer/Footer";
 import HeaderContainer from "./components/Header/HeaderContainer";
+import FooterContainer from "./components/Footer/FooterContainer";
 
 function App(props) {
   return (
@@ -13,7 +13,7 @@ function App(props) {
         <div className='app-wrapper-content'>
             <AboutLaboratoryContainer store={props.store}/>
         </div>
-        <Footer />
+        <FooterContainer />
     </div>
   );
 }
