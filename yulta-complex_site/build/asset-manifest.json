@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edcf2063.chunk.css",
+    "main.js": "/static/js/main.6b442136.chunk.js",
+    "main.js.map": "/static/js/main.6b442136.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cebbe659.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cebbe659.js.map",
+    "static/js/2.f707ffab.chunk.js": "/static/js/2.f707ffab.chunk.js",
+    "static/js/2.f707ffab.chunk.js.map": "/static/js/2.f707ffab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d9a7c7d2df61af1993740ffbf142a28.js": "/precache-manifest.1d9a7c7d2df61af1993740ffbf142a28.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.edcf2063.chunk.css.map": "/static/css/main.edcf2063.chunk.css.map",
+    "static/js/2.f707ffab.chunk.js.LICENSE.txt": "/static/js/2.f707ffab.chunk.js.LICENSE.txt",
+    "static/media/AboutLaboratory.png": "/static/media/AboutLaboratory.f527d62c.png",
+    "static/media/Accreditation.png": "/static/media/Accreditation.fc31bcd0.png",
+    "static/media/Nav.module.scss": "/static/media/Background.9f461db4.jpg",
+    "static/media/Comments.png": "/static/media/Comments.1174b9f9.png",
+    "static/media/Info.png": "/static/media/Info.7c1f8de4.png",
+    "static/media/Footer.module.scss": "/static/media/Logo.8027a62d.png",
+    "static/media/Request.png": "/static/media/Request.d68d0092.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cebbe659.js",
+    "static/js/2.f707ffab.chunk.js",
+    "static/css/main.edcf2063.chunk.css",
+    "static/js/main.6b442136.chunk.js"
+  ]
+}
