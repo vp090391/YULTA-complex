@@ -1,0 +1,95 @@
+.nav {
+  height: 120px;
+  background-image: url("../../assets/Nav/Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0 10%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  gap: 0.5em 0.5em;
+
+  .request {
+    background-color: rgba(189, 56, 56, 0.85);
+  }
+  .activeLink {
+    background-color: rgba(91, 146, 229, 0.85);
+  }
+
+  a {
+    height: 75%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.1em 0.1em;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(31, 35, 31, 0.85);
+    border-radius: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+
+  a h2 {
+    padding-top: 3%;
+    font-size: 1em;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    margin: 0 auto;
+  }
+
+  a img {
+    width: 1.5em;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .nav {
+    padding: 0 2%;
+    font-size: 0.8em;
+    a img {
+      width: 2em;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    height: auto;
+    padding: 0.5em;
+    grid-template-columns: repeat(3, minmax(140px, 3fr));
+
+    a {
+      height: 100%;
+      padding: 2%;
+      grid-template-columns: 7fr 3fr;
+      grid-template-rows: 1fr;
+    }
+
+    a h2 {
+      padding: 0;
+      align-self: center;
+    }
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .nav {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .nav {
+    grid-template-columns: 1fr;
+  }
+}

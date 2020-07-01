@@ -1,6 +1,5 @@
-import React from 'react';
-import AboutLaboratory from "./AboutLaboratory";
 import {connect} from "react-redux";
+import AboutLaboratory from "./AboutLaboratory";
 
 const mapStateToProps = (state) => {
     return {

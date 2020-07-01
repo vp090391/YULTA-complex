@@ -9,12 +9,12 @@ import store from "./redux/redux-store";
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
-          <Provider store={store}>
+      <Provider store={store}>
+         <BrowserRouter>
               <App />
-          </Provider>
-      </BrowserRouter>
-  </React.StrictMode>,
+         </BrowserRouter>
+      </Provider>
+</React.StrictMode>,
   document.getElementById('root')
 );
 

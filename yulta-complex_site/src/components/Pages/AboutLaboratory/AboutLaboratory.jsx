@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './AboutLaboratory.module.css'
+import s from './AboutLaboratory.module.scss'
 
 const AboutLaboratory = (props) => {
     let state = props.aboutLaboratoryPage;

@@ -74,6 +74,7 @@
   }
   .phoneNumbers li {
     margin: 5% 0;
+    font-size: 0.9em;
   }
   .coordinates_wrapper {
     line-height: 150%;
@@ -89,13 +90,12 @@
             "logo logo logo"
             "phoneImage mailImage coordiantesImage";
 
+    div {
+      height: 80%;
+    }
     div:nth-child(1) {
       grid-column-start: 1;
       grid-column-end: 4;
-    }
-
-    div {
-      height: 80%;
     }
   }
   .phoneNumbers_wrapper, .mail_wrapper, .coordinates_wrapper {

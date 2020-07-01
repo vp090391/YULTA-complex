@@ -5,13 +5,12 @@
   font-family: Roboto, serif;
   font-size: 1em;
   font-weight: normal;
-  color: #44444A;
   white-space: pre-line;
   display: grid;
   align-items: center;
-  grid-template-columns: minmax(320px, 5fr) repeat(3,1fr auto);
+  grid-template-columns: minmax(320px, 4fr) repeat(3,1fr auto);
   grid-template-areas: "logo phoneImage phoneNumbers mailImage mail coordiantesImage coordinates";
-  grid-column-gap: 1%;
+  gap: 0.5em 0.5em;
 
   a {
     text-decoration: none;
@@ -80,7 +79,7 @@
   .header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    padding: 0 1%;
+    padding: 2% 1%;
     grid-template-areas:
             "logo logo logo"
             "phoneImage mailImage coordiantesImage";
