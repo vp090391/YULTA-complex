@@ -12,11 +12,6 @@ const Nav = (props) => {
     let state = props.nav;
     return (
         <nav className={s.nav}>
-{/*            //TODO make smooth scale
-            //TODO work link correctly
-            //TODO make call buttom and other playfully
-            */}
-
             <NavLink exact to="/" activeClassName={s.activeLink}>
                 <h2>{state.pages[0]}</h2>
                 <img src={aboutLaboratoryImg} alt='Home'/>

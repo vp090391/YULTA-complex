@@ -1,6 +1,7 @@
 .header {
   height: 100px;
   background-color: #FAFAFA;
+  box-shadow: 0 2px 10px 0 rgba(68, 68, 74, 0.2) inset;
   padding: 0 6%;
   font-family: Roboto, serif;
   font-size: 1em;
@@ -21,8 +22,16 @@
   background-image: url("../../assets/Header/Logo.png");
 }
 
+a img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .phoneImage {
+  /*
   background-image: url("../../assets/Header/Phone.png");
+  */
 }
 
 .mailImage {
@@ -77,8 +86,8 @@
 @media screen and (max-width: 767px) {
   .header {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
-    padding: 2% 1%;
+    grid-template-rows: 50% 50%;
+    padding: 2% 1% 3%;
     grid-template-areas: "logo logo logo" "phoneImage mailImage coordiantesImage";
   }
   .header div:nth-child(1) {

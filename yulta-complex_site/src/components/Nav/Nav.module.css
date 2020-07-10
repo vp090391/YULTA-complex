@@ -1,5 +1,6 @@
 .nav {
   height: 120px;
+  box-shadow: 0 2px 10px 0 rgba(68, 68, 74, 0.3) inset;
   background-image: url("../../assets/Nav/Background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -8,13 +9,12 @@
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 1fr;
   gap: 0.5em 0.5em;
-}
-.nav .request {
-  background-color: rgba(189, 56, 56, 0.85);
 }
 .nav .activeLink {
   background-color: rgba(91, 146, 229, 0.85);
+  color: white;
 }
 .nav a {
   height: 75%;
@@ -23,8 +23,9 @@
   gap: 0.1em 0.1em;
   box-sizing: border-box;
   width: 100%;
-  background-color: rgba(31, 35, 31, 0.85);
-  border-radius: 0.5em;
+  background-color: rgba(31, 35, 31, 0.6);
+  border: 1px solid #44444A;
+  border-radius: 0.2em;
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
@@ -43,6 +44,7 @@
 }
 .nav a img {
   width: 1.5em;
+  height: auto;
   align-self: center;
   justify-self: center;
 }
@@ -71,6 +73,9 @@
   .nav a h2 {
     padding: 0;
     align-self: center;
+  }
+  .nav a:hover {
+    transform: scale(1.05);
   }
 }
 @media screen and (max-width: 559px) {

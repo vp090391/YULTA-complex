@@ -5,9 +5,19 @@ const AboutLaboratory = (props) => {
     let state = props.aboutLaboratoryPage;
 
     return (
-        <div>
-            {state.message}
-        </div>
+        <article className={s.article_wrapper}>
+            <aside className={s.aside}>
+                Aside
+            </aside>
+
+            <section className={s.section}>
+                {state.message}
+            </section>
+
+            <aside className={s.slider}>
+                Slider
+            </aside>
+        </article>
     )
 };
 

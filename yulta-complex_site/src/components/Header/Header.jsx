@@ -1,8 +1,12 @@
 import React from 'react';
 import s from './Header.module.scss'
+import phoneIcon from '../../assets/Header/Phone.svg'
 
 const Header = (props) => {
     let state = props.header;
+
+    //TODO ICONS
+
     return (
         <header className={s.header}>
             <div className={s.logo_wrapper}>
@@ -17,7 +21,9 @@ const Header = (props) => {
                 <a className={s.phoneImage}
                    href={state.phone.office.href}
                    title={state.phone.phoneImageTitle}>
+                    <img src={phoneIcon} alt="Handset"/>
                 </a>
+
             </div>
 
             <div className={s.phoneNumbers_wrapper}>
@@ -31,8 +37,7 @@ const Header = (props) => {
             <div className={s.mailImage_wrapper}>
                 <a className={s.mailImage}
                    href={state.mail.href}
-                   title={state.mail.imageTitle}
-                   style={{backgroundImage: `${state.mail.image}`}}>
+                   title={state.mail.imageTitle}>
                 </a>
             </div>
 
