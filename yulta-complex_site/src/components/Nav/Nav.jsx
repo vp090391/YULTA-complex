@@ -17,7 +17,7 @@ const Nav = (props) => {
                 <img src={aboutLaboratoryImg} alt='Home'/>
             </NavLink>
 
-            <NavLink to="/request" className={s.request} activeClassName={s.activeLink}>
+            <NavLink to="/request" activeClassName={s.activeLink}>
                 <h2>{state.pages[1]}</h2>
                 <img src={requestImg} alt='List'/>
             </NavLink>
