@@ -21,7 +21,6 @@ const Header = (props) => {
                 <a className={s.phoneImage}
                    href={state.phone.office.href}
                    title={state.phone.phoneImageTitle}>
-                    <img src={phoneIcon} alt="Handset"/>
                 </a>
 
             </div>

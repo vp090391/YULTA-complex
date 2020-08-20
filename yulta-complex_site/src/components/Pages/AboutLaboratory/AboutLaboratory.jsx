@@ -1,19 +1,11 @@
 import React from 'react';
 import s from './AboutLaboratory.module.scss'
 import {NavLink} from 'react-router-dom';
-import Swiper from './Swiper/Swiper'
+import SwiperComponent from './Swiper/Swiper';
+import ModalImage from "react-modal-image";
 
 const AboutLaboratory = (props) => {
     let state = props.aboutLaboratoryPage;
-
-    let onClickImage = () => {
-        document.addEventListener('click', (event) => {
-            if (event.target.id) {console.log(event.target.id)}
-        });
-    };
-
-    //TODO react-lazy-load-image-component
-    // TODO react-onclickoutside
 
     return (
         <article className={s.article_wrapper}>
@@ -26,7 +18,7 @@ const AboutLaboratory = (props) => {
                     {state.paragraphs[3]}
                 </NavLink>
                 <p>{state.paragraphs[4]}</p>
-                <p>{state.paragraphs[5].slice(0,-14)}
+                <p>{state.paragraphs[5].slice(0, -14)}
                     <a href={state.mail.href}
                        title={state.mail.imageTitle}>{state.paragraphs[5].slice(-14,)}
                     </a>
@@ -37,13 +29,24 @@ const AboutLaboratory = (props) => {
                 <p>{state.paragraphs[7]}</p>
             </section>
 
-            <aside className={s.aside} onClick={onClickImage()}>
-                <img id={state.images.accreditationCertificate.id} alt={state.images.accreditationCertificate.alt} src={state.images.accreditationCertificate.src}/>
-                <img id={state.images.registrationCertificate.id} alt={state.images.registrationCertificate.alt} src={state.images.registrationCertificate.src}/>
+            <aside className={s.aside}>
+                <ModalImage
+                    small={state.images.accreditationCertificate.src.small}
+                    large={state.images.accreditationCertificate.src.large}
+                    alt={state.images.accreditationCertificate.alt}
+                    hideZoom={true}
+                />
+                <ModalImage
+                    small={state.images.registrationCertificate.src.small}
+                    large={state.images.registrationCertificate.src.large}
+                    alt={state.images.registrationCertificate.alt}
+                    hideZoom={true}
+                />
+
             </aside>
 
             <aside className={s.swiper}>
-                <Swiper state={state}/>
+                <SwiperComponent state={state}/>
             </aside>
         </article>
     )

@@ -10,7 +10,7 @@ import MakeRequestContainer from "./components/Pages/MakeRequest/MakeRequestCont
 
 function App(props) {
   return (
-    <div className="app-wrapper">
+    <div className="app-wrapper" id='#app'>
         <HeaderContainer store={props.store}/>
         <NavContainer />
         <main className='app-wrapper-content'>
