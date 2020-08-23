@@ -1,11 +1,8 @@
 import React from 'react';
 import s from './Header.module.scss'
-import phoneIcon from '../../assets/Header/Phone.svg'
 
 const Header = (props) => {
     let state = props.header;
-
-    //TODO ICONS
 
     return (
         <header className={s.header}>

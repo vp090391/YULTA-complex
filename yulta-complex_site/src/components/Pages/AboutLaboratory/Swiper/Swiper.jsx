@@ -1,8 +1,6 @@
 import React from 'react';
-import s from './Swiper.module.scss';
 import SwiperCore, {Navigation, A11y, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import ModalImage from "react-modal-image";
 
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
@@ -15,6 +13,7 @@ const SwiperComponent = (props) => {
 
     let state = props.state;
 
+    let keyForSlide = 0;
     let slides;
     let bodyWidth = document.body.clientWidth;
     let sliderNavigationToggle = true;
@@ -43,10 +42,6 @@ const SwiperComponent = (props) => {
         sliderNavigationToggle = true
     }
 
-    let keyForSlide = 0;
-
-    //TODO ModalImage
-
     return (
         <Swiper
             spaceBetween={10}
@@ -54,19 +49,10 @@ const SwiperComponent = (props) => {
             navigation={sliderNavigationToggle}
             pagination={{clickable: true}}
             loop={true}
-            onSwiper={(swiper) => console.log(swiper)}
         >
             {state.images.mls.src.reverse().map((slide) => (
-                <SwiperSlide key={'slide_' + keyForSlide++} zoom={true}>
-                    {/*<ModalImage
-                        small={slide}
-                        large={slide}
-                        alt={state.images.mls.alt}
-                        hideZoom = {true}
-                    />*/}
-
+                <SwiperSlide key={'slide_' + keyForSlide++}>
                     <img src={slide} alt={state.images.mls.alt}/>
-
                 </SwiperSlide>
             ))}
         </Swiper>

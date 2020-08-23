@@ -14,7 +14,7 @@ const AboutLaboratory = (props) => {
                 <p>{state.paragraphs[0]}</p>
                 <p>{state.paragraphs[1]}</p>
                 <p>{state.paragraphs[2]}</p>
-                <NavLink to="/accreditation">
+                <NavLink to="/accreditation" target='_blank'>
                     {state.paragraphs[3]}
                 </NavLink>
                 <p>{state.paragraphs[4]}</p>
@@ -23,7 +23,7 @@ const AboutLaboratory = (props) => {
                        title={state.mail.imageTitle}>{state.paragraphs[5].slice(-14,)}
                     </a>
                 </p>
-                <NavLink to="/request">
+                <NavLink to="/request" target='_blank'>
                     {state.paragraphs[6]}
                 </NavLink>
                 <p>{state.paragraphs[7]}</p>
@@ -42,7 +42,6 @@ const AboutLaboratory = (props) => {
                     alt={state.images.registrationCertificate.alt}
                     hideZoom={true}
                 />
-
             </aside>
 
             <aside className={s.swiper}>
