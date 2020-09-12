@@ -5,8 +5,8 @@ import HeaderContainer from "./components/Header/HeaderContainer";
 import NavContainer from "./components/Nav/NavContainer";
 import AboutLaboratoryContainer from "./components/Pages/AboutLaboratory/AboutLaboratoryContainer";
 import AccreditationContainer from "./components/Pages/Accreditation/AccreditationContainer";
-
 import MakeRequestContainer from "./components/Pages/MakeRequest/MakeRequestContainer";
+import ContactsContainer from "./components/Pages/Contacts/ContactsContainer";
 import FooterContainer from "./components/Footer/FooterContainer";
 
 
@@ -21,8 +21,10 @@ function App(props) {
                        render={() => <AboutLaboratoryContainer store={props.store}/>}/>
                 <Route exact path='/accreditation'
                        render={() => <AccreditationContainer store={props.store}/>}/>
-                <Route path='/request'
+                <Route exact path='/request'
                        render={() => <MakeRequestContainer store={props.store}/>}/>
+                <Route exact path='/contacts'
+                       render={() => <ContactsContainer store={props.store}/>}/>
             </Switch>
         </main>
         <FooterContainer />

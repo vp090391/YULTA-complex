@@ -127,7 +127,7 @@
     border: 1px solid lightgray;
   }
 
-  img:hover {
+  .img_container:hover {
     transform: scale(1.02);
     transition: 0.3s;
   }
@@ -161,8 +161,14 @@
   }
   .swiper {
     h3 {
-      display: none;
+      font-size: 0.5em;
     }
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .article_wrapper {
+    margin: 0 2%;
   }
 }
 

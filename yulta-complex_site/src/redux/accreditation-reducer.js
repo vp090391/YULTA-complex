@@ -10,6 +10,17 @@ import image5 from '../assets/Pages/3_Accreditation/Foto/5_Breakout-force.JPG'
 import image6 from '../assets/Pages/3_Accreditation/Foto/6_Durability_of_pipes.JPG'
 import image7 from '../assets/Pages/3_Accreditation/Foto/7_Abrasion_of_laminate.jpg'
 import image8 from '../assets/Pages/3_Accreditation/Foto/8_Stretching_slab_materials.JPG'
+import image9 from '../assets/Pages/3_Accreditation/Foto/9_Fiberglass_reinforcement_testing.JPG'
+import image10 from '../assets/Pages/3_Accreditation/Foto/10_Staircase_testing.jpg'
+import image11 from '../assets/Pages/3_Accreditation/Foto/11_Adhesive_test.jpg'
+import image12 from '../assets/Pages/3_Accreditation/Foto/12_Ceramic_tile_test.jpg'
+import image13 from '../assets/Pages/3_Accreditation/Foto/13_Water_absorption_of_thermal_insulation_materials.jpg'
+import image14 from '../assets/Pages/3_Accreditation/Foto/14_Concrete_testing.jpg'
+import image15 from '../assets/Pages/3_Accreditation/Foto/15_Geometric_dimensions_of_ceramic_tiles.jpg'
+import image16 from '../assets/Pages/3_Accreditation/Foto/16_Pulling_fiberglass_reinforcement_out_of_concrete.jpg'
+import image17 from '../assets/Pages/3_Accreditation/Foto/17_Tensile_testing_of_plastic_pipes.jpg'
+
+
 
 let initialState = {
     header: "Область аккредтации",
@@ -147,12 +158,21 @@ let initialState = {
         }
     },
     swiperImages: {
-        src: [image5, image6, image7, image8],
+        src: [image5, image6, image7, image8, image9, image10, image11, image12, image13,image14, image15, image16, image17,],
         alt: [
             'Вырыв крепежных элементов из основания',
             'Стойкость труб и фасонных частей в условиях «вода в воде»',
             'Истираемость ламината',
             'Предел прочности при растяжении плитных материалов',
+            'Испытание стеклопластиковой арматуры на растяжение',
+            'Испытание лестниц',
+            'Испытание клеевых соединений',
+            'Водопоглощение керамической плитки',
+            'Водопоглощение теплоизоляционных материалов',
+            'Испытание бетонов',
+            'Измерение размеров керамической плитки',
+            'Вырыв стеклопластиковой арматуры из бетона',
+            'Испытание пластиковых труб на растяжение',
         ],
     },
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, {Navigation, A11y, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
+import s from '../Accreditation.module.scss'
 
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
@@ -27,12 +28,8 @@ const SwiperComponent = (props) => {
         slides = 2;
         sliderNavigationToggle = false
     }
-    if (bodyWidth >= 412) {
+    if (bodyWidth >= 560) {
         slides = 3;
-        sliderNavigationToggle = false
-    }
-    if (bodyWidth >= 684) {
-        slides = 4;
         sliderNavigationToggle = true
     }
 
@@ -46,8 +43,10 @@ const SwiperComponent = (props) => {
         >
             {state.swiperImages.src.map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
-                    <img src={slide} alt={state.swiperImages.alt[swiperImageAltCounter++]}/>
-                    <h3>{state.swiperImages.alt[swiperImageH3Counter++]}</h3>
+                    <div className={s.img_container}>
+                        <img src={slide} alt={state.swiperImages.alt[swiperImageAltCounter++]}/>
+                        <h3>{state.swiperImages.alt[swiperImageH3Counter++]}</h3>
+                    </div>
                 </SwiperSlide>
             ))}
         </Swiper>

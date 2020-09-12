@@ -16,7 +16,8 @@ const Accreditation = (props) => {
                 <p>
                     <a href={state.links.goTo.href}
                        title={state.links.goTo.title}
-                       target="_blank">
+                       target="_blank"
+                       rel="noopener noreferrer">
                         {state.links.goTo.content}
                     </a>
                 </p>

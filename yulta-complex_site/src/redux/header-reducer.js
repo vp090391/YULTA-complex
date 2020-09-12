@@ -24,7 +24,7 @@ let initialState = {
     },
     mail: {
         imageTitle: 'Написать письмо',
-        href: 'mailto:info@yulta.by?subject=Заявка',
+        href: 'mailto:info@yulta.by?subject=Заявка_на_испытания',
         valueForPage: 'info@yulta.by',
     },
     coordinates: {
