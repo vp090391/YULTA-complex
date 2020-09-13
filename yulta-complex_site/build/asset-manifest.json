@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.72a0cdab.chunk.css",
-    "main.js": "/static/js/main.0c388bbb.chunk.js",
-    "main.js.map": "/static/js/main.0c388bbb.chunk.js.map",
+    "main.css": "/static/css/main.6584c3c6.chunk.css",
+    "main.js": "/static/js/main.390f1c2a.chunk.js",
+    "main.js.map": "/static/js/main.390f1c2a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cebbe659.js",
     "runtime-main.js.map": "/static/js/runtime-main.cebbe659.js.map",
     "static/css/2.9c0a4e18.chunk.css": "/static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.cdb58504.chunk.js": "/static/js/2.cdb58504.chunk.js",
-    "static/js/2.cdb58504.chunk.js.map": "/static/js/2.cdb58504.chunk.js.map",
+    "static/js/2.e8560aa3.chunk.js": "/static/js/2.e8560aa3.chunk.js",
+    "static/js/2.e8560aa3.chunk.js.map": "/static/js/2.e8560aa3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a7937326cfa80dea65bf3ffc61a7a229.js": "/precache-manifest.a7937326cfa80dea65bf3ffc61a7a229.js",
+    "precache-manifest.da5c7a36a0077ab80ece7f4a121be803.js": "/precache-manifest.da5c7a36a0077ab80ece7f4a121be803.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9c0a4e18.chunk.css.map": "/static/css/2.9c0a4e18.chunk.css.map",
-    "static/css/main.72a0cdab.chunk.css.map": "/static/css/main.72a0cdab.chunk.css.map",
-    "static/js/2.cdb58504.chunk.js.LICENSE.txt": "/static/js/2.cdb58504.chunk.js.LICENSE.txt",
+    "static/css/main.6584c3c6.chunk.css.map": "/static/css/main.6584c3c6.chunk.css.map",
+    "static/js/2.e8560aa3.chunk.js.LICENSE.txt": "/static/js/2.e8560aa3.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.36b65970.jpg",
     "static/media/10_Staircase_testing.jpg": "/static/media/10_Staircase_testing.56aa9ac4.jpg",
     "static/media/11_Adhesive_test.jpg": "/static/media/11_Adhesive_test.156453f7.jpg",
@@ -50,18 +50,20 @@
     "static/media/9_Fiberglass_reinforcement_testing.JPG": "/static/media/9_Fiberglass_reinforcement_testing.b9f74e04.JPG",
     "static/media/AboutLaboratory.png": "/static/media/AboutLaboratory.f527d62c.png",
     "static/media/Accreditation.png": "/static/media/Accreditation.fc31bcd0.png",
+    "static/media/Akt otbora.docx": "/static/media/Akt otbora.2075a9c8.docx",
     "static/media/Nav.module.scss": "/static/media/Background.9f461db4.jpg",
     "static/media/Comments.png": "/static/media/Comments.1174b9f9.png",
     "static/media/Info.png": "/static/media/Info.7c1f8de4.png",
     "static/media/Footer.module.scss": "/static/media/Logo.8027a62d.png",
     "static/media/Oblast akkreditacii_YULTA-complex_Full.pdf": "/static/media/Oblast akkreditacii_YULTA-complex_Full.fdefba80.pdf",
+    "static/media/Programma ispitanii.docx": "/static/media/Programma ispitanii.78550c8c.docx",
     "static/media/Request.png": "/static/media/Request.d68d0092.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cebbe659.js",
     "static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.cdb58504.chunk.js",
-    "static/css/main.72a0cdab.chunk.css",
-    "static/js/main.0c388bbb.chunk.js"
+    "static/js/2.e8560aa3.chunk.js",
+    "static/css/main.6584c3c6.chunk.css",
+    "static/js/main.390f1c2a.chunk.js"
   ]
 }

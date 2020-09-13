@@ -27,20 +27,20 @@ const Nav = (props) => {
                 <img src={accreditationImg} alt='Presentation of opportunities'/>
             </NavLink>
 
-            <NavLink to="/info" activeClassName={s.activeLink}>
+{/*            <NavLink to="/info" activeClassName={s.activeLink}>
                 <h2>{state.pages[3]}</h2>
                 <img src={infoImg} alt='Infornation'/>
-            </NavLink>
+            </NavLink>*/}
 
             <NavLink to="/contacts" activeClassName={s.activeLink}>
                 <h2>{state.pages[4]}</h2>
                 <img src={contactsImg} alt='Phone mail geolocation'/>
             </NavLink>
 
-            <NavLink to="/comments" activeClassName={s.activeLink}>
+{/*            <NavLink to="/comments" activeClassName={s.activeLink}>
                 <h2>{state.pages[5]}</h2>
                 <img src={commentsImg} alt='Comment'/>
-            </NavLink>
+            </NavLink>*/}
         </nav>
     )
 };

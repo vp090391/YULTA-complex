@@ -49,7 +49,8 @@
   padding: 0.5em 10%;
 }
 .section iframe {
-  border: 1px solid #44444A;
+  border: 1px solid rgba(68, 68, 74, 0.3);
+  box-shadow: 0 3px 5px 0 rgba(68, 68, 74, 0.3);
   width: 100%;
   height: 30em;
 }

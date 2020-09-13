@@ -15,8 +15,8 @@ let initialState = {
         ['E-mail:', 'info@yulta.by'],
         ['Сайт:', 'yulta.by'],
         ['Время работы:', 'Понедельник-пятница с 9-00 до 17-00'],
-    ]
-
+    ],
+    mapSrc: 'https://yandex.ru/map-widget/v1/?um=constructor%3A8ac6be1686f0b6c7bd42c3458c45c1e1de762a314d333558ba8f67bc1cb78354&amp;source=constructor',
 };
 
 const contactsReducer = (state = initialState) => {

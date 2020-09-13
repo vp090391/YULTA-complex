@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7625c7237a60a06c089b61fc2a0cabc",
+    "revision": "eba3993150f1ce32aeb40d58524d00c6",
     "url": "/index.html"
   },
   {
-    "revision": "1bcc2da22e3b0fdf3c1f",
+    "revision": "83392fda2e87bd00836f",
     "url": "/static/css/2.9c0a4e18.chunk.css"
   },
   {
-    "revision": "500c38b408a970921962",
-    "url": "/static/css/main.72a0cdab.chunk.css"
+    "revision": "f2dec28d2f7eb70ff773",
+    "url": "/static/css/main.6584c3c6.chunk.css"
   },
   {
-    "revision": "1bcc2da22e3b0fdf3c1f",
-    "url": "/static/js/2.cdb58504.chunk.js"
+    "revision": "83392fda2e87bd00836f",
+    "url": "/static/js/2.e8560aa3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.cdb58504.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e8560aa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "500c38b408a970921962",
-    "url": "/static/js/main.0c388bbb.chunk.js"
+    "revision": "f2dec28d2f7eb70ff773",
+    "url": "/static/js/main.390f1c2a.chunk.js"
   },
   {
     "revision": "a87407900e7ce266b30f",
@@ -169,7 +169,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "fc31bcd0482b22fed8ad7e74fc89d4c6",
-    "url": "/static/media/Contacts.fc31bcd0.png"
+    "url": "/static/media/Accreditation.fc31bcd0.png"
+  },
+  {
+    "revision": "2075a9c823e2b907b3db920b9e63d364",
+    "url": "/static/media/Akt otbora.2075a9c8.docx"
   },
   {
     "revision": "9f461db4f0417a9f87a5e156d3ad2c8c",
@@ -190,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fdefba807e5b81cc7521577a8860bcd3",
     "url": "/static/media/Oblast akkreditacii_YULTA-complex_Full.fdefba80.pdf"
+  },
+  {
+    "revision": "78550c8cc6b541879e398e24397751aa",
+    "url": "/static/media/Programma ispitanii.78550c8c.docx"
   },
   {
     "revision": "d68d009276be0538bd5eb4da5161d643",

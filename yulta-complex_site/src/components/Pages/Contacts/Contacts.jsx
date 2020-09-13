@@ -22,10 +22,7 @@ const Contacts = (props) => {
                 </table>
 
                 <div className={s.map}>
-                    <iframe
-                        title='Map'
-                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ac6be1686f0b6c7bd42c3458c45c1e1de762a314d333558ba8f67bc1cb78354&amp;source=constructor"
-                    />
+                    <iframe title='Map' src={state.mapSrc}/>
                 </div>
 
             </section>
