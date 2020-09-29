@@ -9,31 +9,37 @@
   white-space: pre-line;
   color: #44444A;
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: "section aside";
+  grid-template-columns: 1fr;
+  grid-template-areas: "section" "aside";
 }
 
 .aside {
   grid-area: aside;
-  justify-self: center;
   text-align: center;
-  padding: 1em;
-  width: 13em;
+  justify-self: center;
+  padding: 1em 0;
+  width: 100%;
+  height: fit-content;
 
-  img {
-    cursor: pointer;
-    border: 1px solid lightgray;
+  div {
+    margin: 0 auto;
+    position: relative;
+    height: 1240px;
+    width: 100%;
+    max-width: 580px;
   }
 
-  img:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
+  iframe {
+    border: 1px solid rgba(68,68,74,0.3);
+    box-shadow: 0 3px 5px 0 rgba(68,68,74,0.3);
+    width: 98%;
+    height: 100%;
   }
 }
 
 .section {
   grid-area: section;
-  margin: 0 7% 0 4%;
+  margin: 0 4% 0 4%;
   text-align: justify;
 
   h1 {
@@ -74,19 +80,16 @@
 }
 
 @media screen and (max-width: 960px) {
-  .article_wrapper {
-    grid-template-areas: "section section" "aside aside" "swiper swiper";
-    grid-template-columns: 1fr 1fr;
+  .section {
+    margin: 0 0.5em 0 0.5em;
   }
-  .aside {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 0;
 
-    img {
-      height: 15em;
+}
+
+@media screen and (max-width: 690px) {
+  .aside {
+    div {
+      height: 1650px;
     }
   }
 }
@@ -97,3 +100,17 @@
   }
 }
 
+@media screen and (max-width: 340px) {
+  .aside {
+    div {
+      height: 2050px;
+    }
+  }
+}
+@media screen and (max-width: 290px) {
+  .aside {
+    div {
+      height: 2200px;
+    }
+  }
+}

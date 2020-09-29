@@ -80,6 +80,9 @@
     grid-template-areas: "section section" "aside aside" "swiper swiper";
     grid-template-columns: 1fr 1fr;
   }
+  .section {
+    margin: 0 0.5em 0 0.5em;
+  }
   .aside {
     display: flex;
     flex-flow: row wrap;

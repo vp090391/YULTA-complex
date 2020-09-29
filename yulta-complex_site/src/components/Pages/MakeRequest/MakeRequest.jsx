@@ -14,6 +14,7 @@ const MakeRequest = (props) => {
                     </a>
                 </p>
                 <section>
+
                     <h2>{state.docsList.header}</h2>
                     <section>
                         <h3>{state.docsList.list["1"].header}</h3>
@@ -45,8 +46,11 @@ const MakeRequest = (props) => {
             </section>
 
             <aside className={s.aside}>
-
+                <div>
+                    <iframe title='Form' src={state.formSrc}/>
+                </div>
             </aside>
+
         </article>
     )
 };
