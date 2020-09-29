@@ -17,7 +17,7 @@
   grid-area: aside;
   text-align: center;
   justify-self: center;
-  padding: 1em 0;
+  margin: 1.5em 0;
   width: 100%;
   height: fit-content;
 
@@ -39,7 +39,7 @@
 
 .section {
   grid-area: section;
-  margin: 0 4% 0 4%;
+  margin: 0 2em 0 2em;
   text-align: justify;
 
   h1 {
@@ -49,6 +49,7 @@
   }
 
   h2 {
+    margin-top: 1.5em;
     font-size: 1em;
     text-align: center;
   }
@@ -65,17 +66,17 @@
       color: #44444A;
     }
   }
-/*  p:nth-child(3) {
-    margin: 0 0 0 1em;
-  }*/
-
-
 
   section {
-    margin-left: 1em;
     text-align: left;
     a {
       color: #5B92E5;
+    }
+    section:nth-child(3){
+      p:nth-child(3){
+        margin: 0 0 0 1em;
+      }
+
     }
   }
   .section_1 {
