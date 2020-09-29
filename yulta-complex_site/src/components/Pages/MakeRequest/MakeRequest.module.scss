@@ -50,23 +50,26 @@
 
   h2 {
     font-size: 1em;
-    margin: 0.5em 0;
+    text-align: center;
   }
 
   h3 {
     font-size: 1em;
     color: #399d37;
+    margin: 1em 0;
   }
 
   p {
-    margin: 3% 0 0;
+    margin: 1em 0 0;
     a {
       color: #44444A;
     }
   }
-  p:nth-child(3) {
+/*  p:nth-child(3) {
     margin: 0 0 0 1em;
-  }
+  }*/
+
+
 
   section {
     margin-left: 1em;
@@ -75,8 +78,9 @@
       color: #5B92E5;
     }
   }
-
-
+  .section_1 {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 960px) {

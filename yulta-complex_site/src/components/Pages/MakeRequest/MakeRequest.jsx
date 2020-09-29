@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './MakeRequest.module.scss'
+import {NavLink} from "react-router-dom";
 
 const MakeRequest = (props) => {
     let state = props.makeRequestPage;
@@ -8,14 +9,23 @@ const MakeRequest = (props) => {
         <article className={s.article_wrapper}>
             <section className={s.section}>
                 <h1>{state.header}</h1>
-                <p>{state.paragraf.slice(0, -14)}
-                    <a href={state.emailHref}
-                       title='Написать письмо'>{state.paragraf.slice(-14,)}
-                    </a>
-                </p>
-                <section>
+                <section className={s.section_1}>
+                    <p>{state.paragrafs[1].slice(0, -14)}
+                        <a href={state.emailHref}
+                           title='Написать письмо'>{state.paragrafs[1].slice(-14,)}
+                        </a>
+                    </p>
+                    <p>{state.paragrafs[2]}</p>
+                    <p>{state.paragrafs[3].slice(0,-24)}
+                        <NavLink to="/contacts">
+                            {state.paragrafs[3].slice(-24,)}
+                        </NavLink>
+                    </p>
+                </section>
 
+                <section>
                     <h2>{state.docsList.header}</h2>
+
                     <section>
                         <h3>{state.docsList.list["1"].header}</h3>
                         <p>{state.docsList.list["1"].paragraf}</p>
