@@ -2,6 +2,7 @@ import React from 'react';
 import SwiperCore, {Navigation, A11y, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
+
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';

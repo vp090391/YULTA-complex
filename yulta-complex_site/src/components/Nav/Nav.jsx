@@ -32,15 +32,16 @@ const Nav = (props) => {
                 <img src={infoImg} alt='Infornation'/>
             </NavLink>*/}
 
+            <NavLink to="/comments" activeClassName={s.activeLink}>
+                <h2>{state.pages[5]}</h2>
+                <img src={commentsImg} alt='Comment'/>
+            </NavLink>
+
             <NavLink to="/contacts" activeClassName={s.activeLink}>
                 <h2>{state.pages[4]}</h2>
                 <img src={contactsImg} alt='Phone mail geolocation'/>
             </NavLink>
 
-{/*            <NavLink to="/comments" activeClassName={s.activeLink}>
-                <h2>{state.pages[5]}</h2>
-                <img src={commentsImg} alt='Comment'/>
-            </NavLink>*/}
         </nav>
     )
 };
