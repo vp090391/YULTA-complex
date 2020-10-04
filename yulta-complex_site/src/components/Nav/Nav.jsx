@@ -4,7 +4,9 @@ import {NavLink} from "react-router-dom";
 import aboutLaboratoryImg from '../../assets/Nav/AboutLaboratory.png'
 import requestImg from '../../assets/Nav/Request.png'
 import accreditationImg from '../../assets/Nav/Accreditation.png'
+/*
 import infoImg from '../../assets/Nav/Info.png'
+*/
 import contactsImg from '../../assets/Nav/Contacts.png'
 import commentsImg from '../../assets/Nav/Comments.png'
 

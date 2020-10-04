@@ -63,9 +63,6 @@
   .nav {
     height: auto;
     padding: 0.5em;
-    /*
-    grid-template-columns: repeat(3, minmax(140px, 3fr));
-    */
     grid-template-columns: repeat(2, minmax(140px, 1fr));
   }
   .nav a {
@@ -82,11 +79,6 @@
     transform: scale(1.05);
   }
 }
-/*@media screen and (max-width: 559px) {
-  .nav {
-    grid-template-columns: repeat(2, minmax(140px, 1fr));
-  }
-}*/
 @media screen and (max-width: 369px) {
   .nav {
     grid-template-columns: 1fr;

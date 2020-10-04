@@ -6,13 +6,17 @@ const Comments = (props) => {
 
     return (
         <article className={s.article_wrapper}>
-            <h1>{state.header}</h1>
-            <section className={s.aside}>
-                <div>
-                    <iframe title='Form' src={state.formSrc}/>
-                </div>
-            </section>
+            <section className={s.section}>
 
+                <h1>{state.header}</h1>
+
+                <section>
+                    <div>
+                        <iframe title='Form' src={state.formSrc}/>
+                    </div>
+                </section>
+
+            </section>
         </article>
     )
 };

@@ -9,24 +9,30 @@
   white-space: pre-line;
   color: #44444A;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "section" "aside";
+/*  grid-template-columns: 1fr;
+  grid-template-areas: "section" "aside";*/
 }
 
-.aside {
-  grid-area: aside;
-  text-align: center;
+.section {
   justify-self: center;
-  margin: 1.5em 0;
+  margin: 0 2em 2em 2em;
   width: 100%;
   height: fit-content;
+
+  h1 {
+    color: #399D37;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase
+  }
 
   div {
     margin: 0 auto;
     position: relative;
-    height: 1240px;
+    height: 1730px;
     width: 100%;
-    max-width: 580px;
+    max-width: 900px;
+    text-align: center;
   }
 
   iframe {
@@ -37,64 +43,24 @@
   }
 }
 
-.section {
-  grid-area: section;
-  margin: 0 2em 0 2em;
-  text-align: justify;
-
-  h1 {
-    color: #399D37;
-    font-size: 1.2em;
-    text-transform: uppercase
-  }
-
-  h2 {
-    margin-top: 1.5em;
-    font-size: 1em;
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 1em;
-    color: #399d37;
-    margin: 1em 0;
-  }
-
-  p {
-    margin: 1em 0 0;
-    a {
-      color: #44444A;
-    }
-  }
-
-  section {
-    text-align: left;
-    a {
-      color: #5B92E5;
-    }
-    section:nth-child(3){
-      p:nth-child(3){
-        margin: 0 0 0 1em;
-      }
-
-    }
-  }
-  .section_1 {
-    margin-left: 0;
-  }
-}
-
 @media screen and (max-width: 960px) {
   .section {
-    margin: 0 0.5em 0 0.5em;
+    margin: 0 0.5em 2em 0.5em;
   }
-
 }
 
-@media screen and (max-width: 690px) {
-  .aside {
+@media screen and (max-width: 900px) {
+  .section {
     div {
-      height: 1650px;
+      height: 1800px;
+    }
+  }
+}
+
+@media screen and (max-width: 663px) {
+  .section {
+    div {
+      height: 1860px;
     }
   }
 }
@@ -105,17 +71,26 @@
   }
 }
 
-@media screen and (max-width: 340px) {
-  .aside {
+@media screen and (max-width: 480px) {
+  .section {
     div {
-      height: 2050px;
+      height: 1985px;
     }
   }
 }
-@media screen and (max-width: 290px) {
-  .aside {
+
+@media screen and (max-width: 375px) {
+  .section {
     div {
-      height: 2200px;
+      height: 2250px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .section {
+    div {
+      height: 2640px;
     }
   }
 }

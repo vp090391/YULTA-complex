@@ -1,21 +1,20 @@
 import React from 'react';
-import SwiperCore, {Navigation, A11y, Pagination} from 'swiper';
+import SwiperCore, {Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
-
 
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
-SwiperCore.use([Navigation, Pagination, A11y]);
+SwiperCore.use([Navigation, Pagination]);
 
 const SwiperComponent = (props) => {
 
     let state = props.state;
 
     let keyForSlide = 0;
-    let slides;
+    let slides = 6;
     let bodyWidth = document.body.clientWidth;
     let sliderNavigationToggle = true;
     if (bodyWidth < 320) {
@@ -53,7 +52,7 @@ const SwiperComponent = (props) => {
         >
             {state.images.mls.src.reverse().map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
-                    <img src={slide} alt={state.images.mls.alt}/>
+                    <a href={slide} target='_blank' rel="noopener noreferrer"><img src={slide} alt={state.images.mls.alt}/></a>
                 </SwiperSlide>
             ))}
         </Swiper>
