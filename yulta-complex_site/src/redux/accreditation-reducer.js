@@ -6,21 +6,33 @@ import image3 from '../assets/Pages/3_Accreditation/Foto/3_Water-resistance.JPG'
 import image3_small from '../assets/Pages/3_Accreditation/Foto/3_Water-resistance_small.jpg'
 import image4 from '../assets/Pages/3_Accreditation/Foto/4_Soil-compaction.jpg'
 import image4_small from '../assets/Pages/3_Accreditation/Foto/4_Soil-compaction_small.jpg'
-import image5 from '../assets/Pages/3_Accreditation/Foto/5_Breakout-force.JPG'
-import image6 from '../assets/Pages/3_Accreditation/Foto/6_Durability_of_pipes.JPG'
-import image7 from '../assets/Pages/3_Accreditation/Foto/7_Abrasion_of_laminate.jpg'
-import image8 from '../assets/Pages/3_Accreditation/Foto/8_Stretching_slab_materials.JPG'
-import image9 from '../assets/Pages/3_Accreditation/Foto/9_Fiberglass_reinforcement_testing.JPG'
-import image10 from '../assets/Pages/3_Accreditation/Foto/10_Staircase_testing.jpg'
-import image11 from '../assets/Pages/3_Accreditation/Foto/11_Adhesive_test.jpg'
-import image12 from '../assets/Pages/3_Accreditation/Foto/12_Ceramic_tile_test.jpg'
-import image13 from '../assets/Pages/3_Accreditation/Foto/13_Water_absorption_of_thermal_insulation_materials.jpg'
-import image14 from '../assets/Pages/3_Accreditation/Foto/14_Concrete_testing.jpg'
-import image15 from '../assets/Pages/3_Accreditation/Foto/15_Geometric_dimensions_of_ceramic_tiles.jpg'
-import image16 from '../assets/Pages/3_Accreditation/Foto/16_Pulling_fiberglass_reinforcement_out_of_concrete.jpg'
-import image17 from '../assets/Pages/3_Accreditation/Foto/17_Tensile_testing_of_plastic_pipes.jpg'
 
-
+import slideImg1 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/1_Breakout-force.JPG'
+import slideImg1_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/1_Breakout-force.JPG'
+import slideImg2 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/2_Durability_of_pipes.JPG'
+import slideImg2_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/2_Durability_of_pipes.JPG'
+import slideImg3 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/3_Abrasion_of_laminate.jpg'
+import slideImg3_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/3_Abrasion_of_laminate.jpg'
+import slideImg4 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/4_Stretching_slab_materials.JPG'
+import slideImg4_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/4_Stretching_slab_materials.JPG'
+import slideImg5 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/5_Fiberglass_reinforcement_testing.JPG'
+import slideImg5_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/5_Fiberglass_reinforcement_testing.JPG'
+import slideImg6 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/6_Staircase_testing.jpg'
+import slideImg6_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/6_Staircase_testing.jpg'
+import slideImg7 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/7_Adhesive_test.jpg'
+import slideImg7_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/7_Adhesive_test.jpg'
+import slideImg8 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/8_Ceramic_tile_test.jpg'
+import slideImg8_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/8_Ceramic_tile_test.jpg'
+import slideImg9 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/9_Water_absorption_of_thermal_insulation_materials.jpg'
+import slideImg9_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/9_Water_absorption_of_thermal_insulation_materials.jpg'
+import slideImg10 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/10_Concrete_testing.jpg'
+import slideImg10_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/10_Concrete_testing.jpg'
+import slideImg11 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/11_Geometric_dimensions_of_ceramic_tiles.jpg'
+import slideImg11_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/11_Geometric_dimensions_of_ceramic_tiles.jpg'
+import slideImg12 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/12_Pulling_fiberglass_reinforcement_out_of_concrete.jpg'
+import slideImg12_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/12_Pulling_fiberglass_reinforcement_out_of_concrete.jpg'
+import slideImg13 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/13_Tensile_testing_of_plastic_pipes.jpg'
+import slideImg13_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/13_Tensile_testing_of_plastic_pipes.jpg'
 
 let initialState = {
     header: "Область аккредтации",
@@ -86,7 +98,7 @@ let initialState = {
             ],
             images: {
                 1: {
-                    alt: '',
+                    alt: 'Calipers',
                     src:
                         {
                             large: image1,
@@ -94,7 +106,7 @@ let initialState = {
                         },
                 },
                 2: {
-                    alt: '',
+                    alt: 'Test tubes',
                     src: {
                         large: image2,
                         small: image2_small
@@ -158,7 +170,6 @@ let initialState = {
         }
     },
     swiperImages: {
-        src: [image5, image6, image7, image8, image9, image10, image11, image12, image13,image14, image15, image16, image17,],
         alt: [
             'Вырыв крепежных элементов из основания',
             'Стойкость труб и фасонных частей в условиях «вода в воде»',
@@ -174,6 +185,8 @@ let initialState = {
             'Вырыв стеклопластиковой арматуры из бетона',
             'Испытание пластиковых труб на растяжение',
         ],
+        large: [slideImg1, slideImg2, slideImg3, slideImg4, slideImg5, slideImg6, slideImg7, slideImg8, slideImg9,slideImg10, slideImg11, slideImg12, slideImg13],
+        small: [slideImg1_small, slideImg2_small, slideImg3_small, slideImg4_small, slideImg5_small, slideImg6_small, slideImg7_small, slideImg8_small, slideImg9_small,slideImg10_small, slideImg11_small, slideImg12_small, slideImg13_small],
     },
 };
 

@@ -10,10 +10,11 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 SwiperCore.use([Navigation, Pagination]);
 
 const SwiperComponent = (props) => {
-
     let state = props.state;
 
+    let imgArraylength = state.images.mls.small.length - 1;
     let keyForSlide = 0;
+
     let slides = 6;
     let bodyWidth = document.body.clientWidth;
     let sliderNavigationToggle = true;
@@ -50,9 +51,10 @@ const SwiperComponent = (props) => {
             pagination={{clickable: true}}
             loop={true}
         >
-            {state.images.mls.src.reverse().map((slide) => (
+
+            {state.images.mls.large.reverse().map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
-                    <a href={slide} target='_blank' rel="noopener noreferrer"><img src={slide} alt={state.images.mls.alt}/></a>
+                    <a href={slide} target='_blank' rel="noopener noreferrer"><img src={state.images.mls.small[imgArraylength--]} alt={state.images.mls.alt}/></a>
                 </SwiperSlide>
             ))}
         </Swiper>

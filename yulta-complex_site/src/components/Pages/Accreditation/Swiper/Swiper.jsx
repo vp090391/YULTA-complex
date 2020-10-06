@@ -13,8 +13,9 @@ SwiperCore.use([Navigation, Pagination, A11y]);
 const SwiperComponent = (props) => {
 
     let state = props.state;
-    let swiperImageAltCounter = 0;
-    let swiperImageH3Counter = 0;
+    let swiperImageAltCounter = state.swiperImages.large.length - 1;
+    let swiperImageH3Counter = state.swiperImages.large.length - 1;
+    let imgArrayLength = state.swiperImages.large.length - 1;
 
     let keyForSlide = 0;
     let slides;
@@ -41,12 +42,14 @@ const SwiperComponent = (props) => {
             pagination={{clickable: true}}
             loop={true}
         >
-            {state.swiperImages.src.map((slide) => (
+            {state.swiperImages.large.reverse().map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
-                    <div className={s.img_container}>
-                        <img src={slide} alt={state.swiperImages.alt[swiperImageAltCounter++]}/>
-                        <h3>{state.swiperImages.alt[swiperImageH3Counter++]}</h3>
-                    </div>
+                    <a href={slide} target='_blank' rel="noopener noreferrer">
+                        <div className={s.img_container}>
+                            <img src={state.swiperImages.small[imgArrayLength--]} alt={state.swiperImages.alt[swiperImageAltCounter--]}/>
+                            <h3>{state.swiperImages.alt[swiperImageH3Counter--]}</h3>
+                        </div>
+                    </a>
                 </SwiperSlide>
             ))}
         </Swiper>

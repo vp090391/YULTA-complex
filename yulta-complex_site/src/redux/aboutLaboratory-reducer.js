@@ -3,15 +3,24 @@ import accreditationCertificateImg_small from '../assets/Pages/1_AboutLaboratory
 import registrationCertificateImg from '../assets/Pages/1_AboutLaboratory/2_Registration certificate.jpg';
 import registrationCertificateImg_small from '../assets/Pages/1_AboutLaboratory/2_Registration certificate_small.jpg';
 
-import mls1 from '../assets/Pages/1_AboutLaboratory/MLS/1.jpg';
-import mls2 from '../assets/Pages/1_AboutLaboratory/MLS/2.jpg';
-import mls3 from '../assets/Pages/1_AboutLaboratory/MLS/3.jpg';
-import mls4 from '../assets/Pages/1_AboutLaboratory/MLS/4.jpg';
-import mls5 from '../assets/Pages/1_AboutLaboratory/MLS/5.jpg';
-import mls6 from '../assets/Pages/1_AboutLaboratory/MLS/6.jpg';
-import mls7 from '../assets/Pages/1_AboutLaboratory/MLS/7.jpg';
-import mls8 from '../assets/Pages/1_AboutLaboratory/MLS/8.jpg';
-import mls9 from '../assets/Pages/1_AboutLaboratory/MLS/9.jpg';
+import mls1 from '../assets/Pages/1_AboutLaboratory/MLS/Large/1.jpg';
+import mls1_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/1.jpg';
+import mls2 from '../assets/Pages/1_AboutLaboratory/MLS/Large/2.jpg';
+import mls2_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/2.jpg';
+import mls3 from '../assets/Pages/1_AboutLaboratory/MLS/Large/3.jpg';
+import mls3_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/3.jpg';
+import mls4 from '../assets/Pages/1_AboutLaboratory/MLS/Large/4.jpg';
+import mls4_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/4.jpg';
+import mls5 from '../assets/Pages/1_AboutLaboratory/MLS/Large/5.jpg';
+import mls5_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/5.jpg';
+import mls6 from '../assets/Pages/1_AboutLaboratory/MLS/Large/6.jpg';
+import mls6_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/6.jpg';
+import mls7 from '../assets/Pages/1_AboutLaboratory/MLS/Large/7.jpg';
+import mls7_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/7.jpg';
+import mls8 from '../assets/Pages/1_AboutLaboratory/MLS/Large/8.jpg';
+import mls8_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/8.jpg';
+import mls9 from '../assets/Pages/1_AboutLaboratory/MLS/Large/9.jpg';
+import mls9_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/9.jpg';
 
 let initialState = {
     header: "О лаборатории",
@@ -46,10 +55,10 @@ let initialState = {
                  small: registrationCertificateImg_small},
         },
         mls: {
-            src: [mls1, mls2, mls3, mls4, mls5, mls6, mls7, mls8, mls9,],
             alt: ['Сертификат участника проверки квалификации'],
+            large: [mls1, mls2, mls3, mls4, mls5, mls6, mls7, mls8, mls9],
+            small: [mls1_small, mls2_small, mls3_small, mls4_small, mls5_small, mls6_small, mls7_small, mls8_small, mls9_small],
         }
-
     }
 };
 

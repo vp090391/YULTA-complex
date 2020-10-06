@@ -6,7 +6,6 @@ import ModalImage from "react-modal-image";
 
 const AboutLaboratory = (props) => {
     let state = props.aboutLaboratoryPage;
-
     return (
         <article className={s.article_wrapper}>
             <section className={s.section}>
