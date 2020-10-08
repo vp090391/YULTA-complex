@@ -1,3 +1,4 @@
+---
 deployment:
 tasks:
 - export REPOPATH=/home/osipovao/repositories/YULTA-complex/yulta-complex_site/build/*
