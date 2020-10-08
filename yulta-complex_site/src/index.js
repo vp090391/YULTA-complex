@@ -7,19 +7,7 @@ import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
 import store from "./redux/redux-store";
 
-hydrate(
-  <React.StrictMode>
-      <Provider store={store}>
-         <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <App />
-         </BrowserRouter>
-      </Provider>
-</React.StrictMode>,
-  document.getElementById('root')
-);
-
-
-/*ReactDOM.render(
+/*hydrate(
   <React.StrictMode>
       <Provider store={store}>
          <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -29,6 +17,18 @@ hydrate(
 </React.StrictMode>,
   document.getElementById('root')
 );*/
+
+
+ReactDOM.render(
+  <React.StrictMode>
+      <Provider store={store}>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
+              <App />
+         </BrowserRouter>
+      </Provider>
+</React.StrictMode>,
+  document.getElementById('root')
+);
 
 
 
