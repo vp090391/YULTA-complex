@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yulta.of.by/precache-manifest.db274a3ef85902633c2e4669a510e296.js"
+  "/yulta.of.by/precache-manifest.0ef96d3fde798031a1be8c3f1ef3cf39.js"
 );
 
 self.addEventListener('message', (event) => {
