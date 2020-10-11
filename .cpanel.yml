@@ -3,4 +3,4 @@ deployment:
 tasks:
 - export REPOPATH=/home/osipovao/repositories/YULTA-complex/yulta-complex_site/build/*
 - export SITEPATH=/home/osipovao/yulta.of.by/
-- /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
+- /bin/rsync -rav --del $REPOPATH $SITEPATH
