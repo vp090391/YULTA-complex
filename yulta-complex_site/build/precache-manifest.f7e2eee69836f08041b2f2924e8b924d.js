@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc4abf85a410b29320055dfa9e790dd8",
+    "revision": "bb405e6b93098039eaccdf794683459e",
     "url": "/yulta.of.by/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yulta.of.by/static/css/2.9c0a4e18.chunk.css"
   },
   {
-    "revision": "5bc3d2db7d7616ec5e0b",
+    "revision": "4dbbce3462b1aeece5b6",
     "url": "/yulta.of.by/static/css/main.eefe4af8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yulta.of.by/static/js/2.02d58bec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bc3d2db7d7616ec5e0b",
-    "url": "/yulta.of.by/static/js/main.2bb4674f.chunk.js"
+    "revision": "4dbbce3462b1aeece5b6",
+    "url": "/yulta.of.by/static/js/main.8e88d26e.chunk.js"
   },
   {
     "revision": "1406b661d2fb5f6fb5f5",

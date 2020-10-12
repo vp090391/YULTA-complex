@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yulta.of.by/static/css/main.eefe4af8.chunk.css",
-    "main.js": "/yulta.of.by/static/js/main.2bb4674f.chunk.js",
-    "main.js.map": "/yulta.of.by/static/js/main.2bb4674f.chunk.js.map",
+    "main.js": "/yulta.of.by/static/js/main.8e88d26e.chunk.js",
+    "main.js.map": "/yulta.of.by/static/js/main.8e88d26e.chunk.js.map",
     "runtime-main.js": "/yulta.of.by/static/js/runtime-main.778cdf92.js",
     "runtime-main.js.map": "/yulta.of.by/static/js/runtime-main.778cdf92.js.map",
     "static/css/2.9c0a4e18.chunk.css": "/yulta.of.by/static/css/2.9c0a4e18.chunk.css",
     "static/js/2.02d58bec.chunk.js": "/yulta.of.by/static/js/2.02d58bec.chunk.js",
     "static/js/2.02d58bec.chunk.js.map": "/yulta.of.by/static/js/2.02d58bec.chunk.js.map",
     "index.html": "/yulta.of.by/index.html",
-    "precache-manifest.0ef96d3fde798031a1be8c3f1ef3cf39.js": "/yulta.of.by/precache-manifest.0ef96d3fde798031a1be8c3f1ef3cf39.js",
+    "precache-manifest.f7e2eee69836f08041b2f2924e8b924d.js": "/yulta.of.by/precache-manifest.f7e2eee69836f08041b2f2924e8b924d.js",
     "service-worker.js": "/yulta.of.by/service-worker.js",
     "static/css/2.9c0a4e18.chunk.css.map": "/yulta.of.by/static/css/2.9c0a4e18.chunk.css.map",
     "static/css/main.eefe4af8.chunk.css.map": "/yulta.of.by/static/css/main.eefe4af8.chunk.css.map",
@@ -63,6 +63,6 @@
     "static/css/2.9c0a4e18.chunk.css",
     "static/js/2.02d58bec.chunk.js",
     "static/css/main.eefe4af8.chunk.css",
-    "static/js/main.2bb4674f.chunk.js"
+    "static/js/main.8e88d26e.chunk.js"
   ]
 }
