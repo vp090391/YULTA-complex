@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/yulta.of.by/static/css/main.eefe4af8.chunk.css",
-    "main.js": "/yulta.of.by/static/js/main.8e88d26e.chunk.js",
-    "main.js.map": "/yulta.of.by/static/js/main.8e88d26e.chunk.js.map",
+    "main.js": "/yulta.of.by/static/js/main.9183666c.chunk.js",
+    "main.js.map": "/yulta.of.by/static/js/main.9183666c.chunk.js.map",
     "runtime-main.js": "/yulta.of.by/static/js/runtime-main.778cdf92.js",
     "runtime-main.js.map": "/yulta.of.by/static/js/runtime-main.778cdf92.js.map",
     "static/css/2.9c0a4e18.chunk.css": "/yulta.of.by/static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.02d58bec.chunk.js": "/yulta.of.by/static/js/2.02d58bec.chunk.js",
-    "static/js/2.02d58bec.chunk.js.map": "/yulta.of.by/static/js/2.02d58bec.chunk.js.map",
+    "static/js/2.3f92c83d.chunk.js": "/yulta.of.by/static/js/2.3f92c83d.chunk.js",
+    "static/js/2.3f92c83d.chunk.js.map": "/yulta.of.by/static/js/2.3f92c83d.chunk.js.map",
     "index.html": "/yulta.of.by/index.html",
-    "precache-manifest.f7e2eee69836f08041b2f2924e8b924d.js": "/yulta.of.by/precache-manifest.f7e2eee69836f08041b2f2924e8b924d.js",
+    "precache-manifest.39c78501bc5e26f5d24a4e926b9d9e0b.js": "/yulta.of.by/precache-manifest.39c78501bc5e26f5d24a4e926b9d9e0b.js",
     "service-worker.js": "/yulta.of.by/service-worker.js",
     "static/css/2.9c0a4e18.chunk.css.map": "/yulta.of.by/static/css/2.9c0a4e18.chunk.css.map",
     "static/css/main.eefe4af8.chunk.css.map": "/yulta.of.by/static/css/main.eefe4af8.chunk.css.map",
-    "static/js/2.02d58bec.chunk.js.LICENSE.txt": "/yulta.of.by/static/js/2.02d58bec.chunk.js.LICENSE.txt",
+    "static/js/2.3f92c83d.chunk.js.LICENSE.txt": "/yulta.of.by/static/js/2.3f92c83d.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/yulta.of.by/static/media/1.bff1113c.jpg",
     "static/media/10_Concrete_testing.jpg": "/yulta.of.by/static/media/10_Concrete_testing.b7caa1f5.jpg",
     "static/media/11_Geometric_dimensions_of_ceramic_tiles.jpg": "/yulta.of.by/static/media/11_Geometric_dimensions_of_ceramic_tiles.797fce88.jpg",
@@ -61,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.778cdf92.js",
     "static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.02d58bec.chunk.js",
+    "static/js/2.3f92c83d.chunk.js",
     "static/css/main.eefe4af8.chunk.css",
-    "static/js/main.8e88d26e.chunk.js"
+    "static/js/main.9183666c.chunk.js"
   ]
 }
