@@ -1,7 +1,7 @@
 ---
 deployment:
-tasks:
-- export REPOPATH=/home/osipovao/repositories/YULTA-complex/yulta-complex_site/.presite/
-- export SITEPATH=/home/osipovao/yulta.of.by/
-- /bin/rsync -rav --del $REPOPATH $SITEPATH
+  tasks:
+    - export REPOPATH=/home/osipovao/repositories/YULTA-complex/yulta-complex_site/.presite/
+    - export SITEPATH=/home/osipovao/yulta.of.by/
+    - /bin/rsync -rav --del $REPOPATH $SITEPATH
 
