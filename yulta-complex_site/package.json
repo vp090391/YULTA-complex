@@ -2,7 +2,7 @@
   "name": "yulta-complex_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "yulta.of.by",
   "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
