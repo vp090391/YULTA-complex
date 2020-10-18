@@ -98,7 +98,7 @@ let initialState = {
             ],
             images: {
                 1: {
-                    alt: 'Calipers',
+                    alt: '',
                     src:
                         {
                             large: image1,
@@ -106,7 +106,7 @@ let initialState = {
                         },
                 },
                 2: {
-                    alt: 'Test tubes',
+                    alt: '',
                     src: {
                         large: image2,
                         small: image2_small
@@ -172,10 +172,14 @@ let initialState = {
     swiperImages: {
         alt: [
             'Вырыв крепежных элементов из основания',
+/*
             'Стойкость труб и фасонных частей в условиях «вода в воде»',
+*/
             'Истираемость ламината',
             'Предел прочности при растяжении плитных материалов',
+/*
             'Испытание стеклопластиковой арматуры на растяжение',
+*/
             'Испытание лестниц',
             'Испытание клеевых соединений',
             'Водопоглощение керамической плитки',
@@ -183,10 +187,10 @@ let initialState = {
             'Испытание бетонов',
             'Измерение размеров керамической плитки',
             'Вырыв стеклопластиковой арматуры из бетона',
-            'Испытание пластиковых труб на растяжение',
+            'Испытание полимерных труб на растяжение',
         ],
-        large: [slideImg1, slideImg2, slideImg3, slideImg4, slideImg5, slideImg6, slideImg7, slideImg8, slideImg9,slideImg10, slideImg11, slideImg12, slideImg13],
-        small: [slideImg1_small, slideImg2_small, slideImg3_small, slideImg4_small, slideImg5_small, slideImg6_small, slideImg7_small, slideImg8_small, slideImg9_small,slideImg10_small, slideImg11_small, slideImg12_small, slideImg13_small],
+        large: [slideImg1, /*slideImg2,*/ slideImg3, slideImg4, /*slideImg5,*/ slideImg6, slideImg7, slideImg8, slideImg9,slideImg10, slideImg11, slideImg12, slideImg13],
+        small: [slideImg1_small, /*slideImg2_small,*/ slideImg3_small, slideImg4_small, /*slideImg5_small,*/ slideImg6_small, slideImg7_small, slideImg8_small, slideImg9_small,slideImg10_small, slideImg11_small, slideImg12_small, slideImg13_small],
     },
 };
 
