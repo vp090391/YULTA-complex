@@ -27,7 +27,7 @@
   div {
     margin: 0 auto;
     position: relative;
-    height: 1760px;
+    height: 1800px;
     width: 100%;
     max-width: 900px;
     text-align: center;
@@ -47,13 +47,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
   .section {
     div {
       height: 1800px;
     }
   }
-}
+}*/
 
 @media screen and (max-width: 663px) {
   .section {
