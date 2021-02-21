@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination]);
 const SwiperComponent = (props) => {
     let state = props.state;
 
-    let imgArraylength = state.images.mls.small.length - 1;
+    let sliderCount = 0;
     let keyForSlide = 0;
 
     let slides = 6;
@@ -52,9 +52,9 @@ const SwiperComponent = (props) => {
             loop={true}
         >
 
-            {state.images.mls.large.reverse().map((slide) => (
+            {state.images.mls.large.map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
-                    <a href={slide} target='_blank' rel="noopener noreferrer"><img src={state.images.mls.small[imgArraylength--]} alt={state.images.mls.alt}/></a>
+                    <a href={slide} target='_blank' rel="noopener noreferrer"><img src={state.images.mls.small[sliderCount++]} alt={state.images.mls.alt}/></a>
                 </SwiperSlide>
             ))}
         </Swiper>

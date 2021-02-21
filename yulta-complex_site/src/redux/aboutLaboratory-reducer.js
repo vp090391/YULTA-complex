@@ -21,8 +21,8 @@ import mls8 from '../assets/Pages/1_AboutLaboratory/MLS/Large/8.jpg';
 import mls8_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/8.jpg';
 import mls9 from '../assets/Pages/1_AboutLaboratory/MLS/Large/9.jpg';
 import mls9_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/9.jpg';
-import mls10 from '../assets/Pages/1_AboutLaboratory/MLS/Large/9a.jpg';
-import mls10_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/9a.jpg';
+import mls10 from '../assets/Pages/1_AboutLaboratory/MLS/Large/10.jpg';
+import mls10_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/10.jpg';
 
 let initialState = {
     header: "О лаборатории",
@@ -58,8 +58,8 @@ let initialState = {
         },
         mls: {
             alt: ['Сертификат участника проверки квалификации'],
-            large: [mls1, mls2, mls3, mls4, mls5, mls6, mls7, mls8, mls9, mls10],
-            small: [mls1_small, mls2_small, mls3_small, mls4_small, mls5_small, mls6_small, mls7_small, mls8_small, mls9_small, mls10_small],
+            large: [mls10, mls9, mls8, mls7, mls6, mls5, mls4, mls3, mls2, mls1],
+            small: [mls10_small, mls9_small, mls8_small, mls7_small, mls6_small, mls5_small, mls4_small, mls3_small, mls2_small, mls1_small],
         }
     }
 };
