@@ -21,8 +21,8 @@ import mls8 from '../assets/Pages/1_AboutLaboratory/MLS/Large/8.jpg';
 import mls8_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/8.jpg';
 import mls9 from '../assets/Pages/1_AboutLaboratory/MLS/Large/9.jpg';
 import mls9_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/9.jpg';
-import mls10 from '../assets/Pages/1_AboutLaboratory/MLS/Large/10.jpg';
-import mls10_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/10.jpg';
+import mls10 from '../assets/Pages/1_AboutLaboratory/MLS/Large/9a.jpg';
+import mls10_small from '../assets/Pages/1_AboutLaboratory/MLS/Small/9a.jpg';
 
 let initialState = {
     header: "О лаборатории",
