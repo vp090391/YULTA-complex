@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e3ae07f3083f2967d6625c9aca45726",
+    "revision": "a051e316025b2dfbb53114e6482b0873",
     "url": "/index.html"
   },
   {
-    "revision": "3b0f6c687ce2ec026fb1",
+    "revision": "7276aa94bc6d59b9fc4a",
     "url": "/static/css/2.9c0a4e18.chunk.css"
   },
   {
-    "revision": "2dce77f8d1d9ba900432",
-    "url": "/static/css/main.f2c8d7d0.chunk.css"
+    "revision": "3fc981294afb154a0794",
+    "url": "/static/css/main.428089d1.chunk.css"
   },
   {
-    "revision": "3b0f6c687ce2ec026fb1",
-    "url": "/static/js/2.3a931e0f.chunk.js"
+    "revision": "7276aa94bc6d59b9fc4a",
+    "url": "/static/js/2.d59364d4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.3a931e0f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d59364d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dce77f8d1d9ba900432",
-    "url": "/static/js/main.b99c9679.chunk.js"
+    "revision": "3fc981294afb154a0794",
+    "url": "/static/js/main.3b956782.chunk.js"
   },
   {
     "revision": "a87407900e7ce266b30f",
@@ -280,6 +280,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Comments.1174b9f9.png"
   },
   {
+    "revision": "d2ad0db47894cd81b9395df18c52ff88",
+    "url": "/static/media/InstagramIcon.d2ad0db4.png"
+  },
+  {
     "revision": "395fad0674ead91f5ba01da195aa286e",
     "url": "/static/media/Logo.395fad06.png"
   },
@@ -294,5 +298,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d68d009276be0538bd5eb4da5161d643",
     "url": "/static/media/Request.d68d0092.png"
+  },
+  {
+    "revision": "673da929ca8ccb164845cb9fe693b85b",
+    "url": "/static/media/background_ladaVesta.673da929.jpg"
   }
 ]);

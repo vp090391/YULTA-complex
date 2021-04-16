@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2c8d7d0.chunk.css",
-    "main.js": "/static/js/main.b99c9679.chunk.js",
-    "main.js.map": "/static/js/main.b99c9679.chunk.js.map",
+    "main.css": "/static/css/main.428089d1.chunk.css",
+    "main.js": "/static/js/main.3b956782.chunk.js",
+    "main.js.map": "/static/js/main.3b956782.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cebbe659.js",
     "runtime-main.js.map": "/static/js/runtime-main.cebbe659.js.map",
     "static/css/2.9c0a4e18.chunk.css": "/static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.3a931e0f.chunk.js": "/static/js/2.3a931e0f.chunk.js",
-    "static/js/2.3a931e0f.chunk.js.map": "/static/js/2.3a931e0f.chunk.js.map",
+    "static/js/2.d59364d4.chunk.js": "/static/js/2.d59364d4.chunk.js",
+    "static/js/2.d59364d4.chunk.js.map": "/static/js/2.d59364d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ed722f6e3b951ac128a37f1eb7bb95b7.js": "/precache-manifest.ed722f6e3b951ac128a37f1eb7bb95b7.js",
+    "precache-manifest.698af0a6c8f654228e943de88457d598.js": "/precache-manifest.698af0a6c8f654228e943de88457d598.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9c0a4e18.chunk.css.map": "/static/css/2.9c0a4e18.chunk.css.map",
-    "static/css/main.f2c8d7d0.chunk.css.map": "/static/css/main.f2c8d7d0.chunk.css.map",
-    "static/js/2.3a931e0f.chunk.js.LICENSE.txt": "/static/js/2.3a931e0f.chunk.js.LICENSE.txt",
+    "static/css/main.428089d1.chunk.css.map": "/static/css/main.428089d1.chunk.css.map",
+    "static/js/2.d59364d4.chunk.js.LICENSE.txt": "/static/js/2.d59364d4.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.bff1113c.jpg",
     "static/media/10.jpg": "/static/media/10.9fb60d6d.jpg",
     "static/media/10_Concrete_testing.jpg": "/static/media/10_Concrete_testing.b7caa1f5.jpg",
@@ -54,6 +54,7 @@
     "static/media/Akt otbora.docx": "/static/media/Akt otbora.2075a9c8.docx",
     "static/media/Nav.module.scss": "/static/media/Background.9f461db4.jpg",
     "static/media/Comments.png": "/static/media/Comments.1174b9f9.png",
+    "static/media/AboutLaboratory.module.scss": "/static/media/background_ladaVesta.673da929.jpg",
     "static/media/Footer.module.scss": "/static/media/Logo.395fad06.png",
     "static/media/Oblast akkreditacii_YULTA-complex_Full.pdf": "/static/media/Oblast akkreditacii_YULTA-complex_Full.fdefba80.pdf",
     "static/media/Programma ispitanii.docx": "/static/media/Programma ispitanii.78550c8c.docx",
@@ -62,8 +63,8 @@
   "entrypoints": [
     "static/js/runtime-main.cebbe659.js",
     "static/css/2.9c0a4e18.chunk.css",
-    "static/js/2.3a931e0f.chunk.js",
-    "static/css/main.f2c8d7d0.chunk.css",
-    "static/js/main.b99c9679.chunk.js"
+    "static/js/2.d59364d4.chunk.js",
+    "static/css/main.428089d1.chunk.css",
+    "static/js/main.3b956782.chunk.js"
   ]
 }

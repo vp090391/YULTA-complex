@@ -17,6 +17,7 @@ const AboutLaboratory = (props) => {
                 <a href={state.promo.instagram.href }
                    className={s.instagram}
                    target="_blank"
+                   rel="noopener noreferrer"
                    title={state.promo.instagram.title}>
                     <p>{state.promo.instagram.text}</p>
                 </a>
