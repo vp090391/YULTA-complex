@@ -1,5 +1,5 @@
 import React from 'react';
-import SwiperCore, {Navigation, A11y, Pagination} from 'swiper';
+import SwiperCore, {Navigation, A11y, Pagination, Autoplay} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import s from '../Accreditation.module.scss'
 
@@ -8,7 +8,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
-SwiperCore.use([Navigation, Pagination, A11y]);
+SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
 
 const SwiperComponent = (props) => {
 
@@ -41,6 +41,7 @@ const SwiperComponent = (props) => {
             navigation={sliderNavigationToggle}
             pagination={{clickable: true}}
             loop={true}
+            autoplay
         >
             {state.swiperImages.large.reverse().map((slide) => (
                 <SwiperSlide key={'slide_' + keyForSlide++}>
