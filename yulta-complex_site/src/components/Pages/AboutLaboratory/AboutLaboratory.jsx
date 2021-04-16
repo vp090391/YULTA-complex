@@ -8,6 +8,20 @@ const AboutLaboratory = (props) => {
     let state = props.aboutLaboratoryPage;
     return (
         <article className={s.article_wrapper}>
+
+            <aside className={s.promo}>
+                <NavLink to="/request" title={state.promo.delivery.title} className={s.delivery}>
+                    <p>{state.promo.delivery.text}</p>
+                </NavLink>
+
+                <a href={state.promo.instagram.href }
+                   className={s.instagram}
+                   target="_blank"
+                   title={state.promo.instagram.title}>
+                    <p>{state.promo.instagram.text}</p>
+                </a>
+            </aside>
+
             <section className={s.section}>
                 <h1>{state.header}</h1>
                 <p>{state.paragraphs[0]}</p>

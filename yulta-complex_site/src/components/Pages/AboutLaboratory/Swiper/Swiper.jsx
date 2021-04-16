@@ -1,5 +1,5 @@
 import React from 'react';
-import SwiperCore, {Navigation, Pagination} from 'swiper';
+import SwiperCore, {Navigation, Pagination, Autoplay} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/swiper.scss';
@@ -7,7 +7,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const SwiperComponent = (props) => {
     let state = props.state;
@@ -50,6 +50,7 @@ const SwiperComponent = (props) => {
             navigation={sliderNavigationToggle}
             pagination={{clickable: true}}
             loop={true}
+            autoplay
         >
 
             {state.images.mls.large.map((slide) => (

@@ -34,6 +34,8 @@ import slideImg12_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/
 import slideImg13 from '../assets/Pages/3_Accreditation/Foto/SliderImages/Large/13_Tensile_testing_of_plastic_pipes.jpg'
 import slideImg13_small from '../assets/Pages/3_Accreditation/Foto/SliderImages/Small/13_Tensile_testing_of_plastic_pipes.jpg'
 
+//TODO заменить slideImg2,5 на другие фото и изменить описание
+
 let initialState = {
     header: "Область аккредтации",
     links: {
