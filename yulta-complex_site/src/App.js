@@ -1,36 +1,44 @@
 import React from 'react';
 import {Route, Switch} from "react-router-dom";
 import './App.css';
-import HeaderContainer from "./components/Header/HeaderContainer";
-import NavContainer from "./components/Nav/NavContainer";
-import AboutLaboratoryContainer from "./components/Pages/AboutLaboratory/AboutLaboratoryContainer";
-import AccreditationContainer from "./components/Pages/Accreditation/AccreditationContainer";
-import MakeRequestContainer from "./components/Pages/MakeRequest/MakeRequestContainer";
-import CommentsContainer from "./components/Pages/Comments/CommentsContainer";
-import ContactsContainer from "./components/Pages/Contacts/ContactsContainer";
-import FooterContainer from "./components/Footer/FooterContainer";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import AboutLaboratory from "./components/Pages/Laboratory/AboutLaboratory/AboutLaboratory";
+import Accreditation from "./components/Pages/Laboratory/Accreditation/Accreditation";
+import MakeRequest from "./components/Pages/Laboratory/MakeRequest/MakeRequest";
+import Comments from "./components/Pages/Comments/Comments";
+import Contacts from "./components/Pages/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 
 function App(props) {
   return (
     <div className="app-wrapper" id='#app'>
-        <HeaderContainer store={props.store}/>
-        <NavContainer />
+        <Header />
+        <Nav />
         <main className='app-wrapper-content'>
             <Switch>
                 <Route exact path='/'
-                       render={() => <AboutLaboratoryContainer store={props.store}/>}/>
+                       render={() => <AboutLaboratory />}/>
                 <Route exact path='/accreditation'
-                       render={() => <AccreditationContainer store={props.store}/>}/>
+                       render={() => <Accreditation />}/>
                 <Route exact path='/request'
-                       render={() => <MakeRequestContainer store={props.store}/>}/>
+                       render={() => <MakeRequest />}/>
                 <Route exact path='/comments'
-                       render={() => <CommentsContainer store={props.store}/>}/>
+                       render={() => <Comments />}/>
                 <Route exact path='/contacts'
-                       render={() => <ContactsContainer store={props.store}/>}/>
+                       render={() => <Contacts />}/>
+
+                <Route exact path='/laboratory'
+                       render={() => <AboutLaboratory />}/>
+                <Route exact path='/laboratory/request'
+                       render={() => <MakeRequest />}/>
+                <Route exact path='/laboratory/accreditation'
+                       render={() => <Accreditation />}/>
+
             </Switch>
         </main>
-        <FooterContainer />
+        <Footer />
     </div>
   );
 }

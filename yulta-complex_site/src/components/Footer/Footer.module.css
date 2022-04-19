@@ -20,19 +20,19 @@
 }
 
 .logo {
-  background-image: url("../../assets/Header/Logo.png");
+  background-image: url("../Header/assets/Logo.png");
 }
 
 .phoneImage {
-  background-image: url("../../assets/Header/Phone.png");
+  background-image: url("../Header/assets/Phone.png");
 }
 
 .mailImage {
-  background-image: url("../../assets/Header/Mail.png");
+  background-image: url("../Header/assets/Mail.png");
 }
 
 .coordinatesImage {
-  background-image: url("../../assets/Header/Coordinates.png");
+  background-image: url("../Header/assets/Coordinates.png");
 }
 
 .logo_wrapper, .phoneImage_wrapper, .mailImage_wrapper, .coordinatesImage_wrapper {

@@ -1,0 +1,150 @@
+.article_wrapper {
+  background-color: #FAFAFA;
+  box-shadow: 0 2px 10px 0 rgba(68, 68, 74, 0.2) inset;
+  height: 100%;
+  margin: 0 8%;
+  font-family: Roboto, serif;
+  font-size: 1em;
+  font-weight: normal;
+  white-space: pre-line;
+  color: #44444A;
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  grid-template-areas: "promo promo" "aside section" "swiper swiper";
+}
+
+.promo {
+  height: auto;
+  grid-area: promo;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 0.5em;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.promo .delivery, .promo .instagram {
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 180px;
+  margin: 1em 0.5em 0 0.5em;
+  color: white;
+  border: 1px solid #399D37;
+  border-radius: 1em;
+  text-decoration: none;
+}
+.promo .delivery p, .promo .instagram p {
+  color: white;
+  align-self: center;
+  border-radius: 0.5em;
+  margin: 0;
+  padding: 0 0.5em 0 0.5em;
+  line-height: 1.5em;
+  background-color: rgba(31, 35, 31, 0.6);
+}
+.promo .delivery {
+  background-image: url("assets/Promo/Delivery/background_ladaVesta.jpg");
+}
+.promo .instagram {
+  background-image: url("assets/Promo/Instagram/InstagramIcon.png");
+}
+.promo a:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.promo a:hover p {
+  background-color: rgba(91, 146, 229, 0.85);
+}
+
+.aside {
+  grid-area: aside;
+  justify-self: center;
+  text-align: center;
+  padding: 1em;
+  width: 13em;
+}
+.aside img {
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+.aside img:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.section {
+  grid-area: section;
+  margin: 0 7% 0 4%;
+  text-align: justify;
+}
+.section h1 {
+  color: #399D37;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.section p {
+  margin: 3% 0;
+}
+.section p a {
+  color: #44444A;
+}
+.section a {
+  color: #5B92E5;
+}
+
+.swiper {
+  grid-area: swiper;
+  justify-self: center;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0.3em;
+  box-sizing: border-box;
+}
+.swiper img {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+.swiper img:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 960px) {
+  .article_wrapper {
+    grid-template-areas: "promo promo" "section section" "aside aside" "swiper swiper";
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section {
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .aside {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+  }
+  .aside img {
+    height: 15em;
+  }
+}
+@media screen and (max-width: 559px) {
+  .article_wrapper {
+    margin: 0 2%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .promo {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=AboutLaboratory.module.css.map */

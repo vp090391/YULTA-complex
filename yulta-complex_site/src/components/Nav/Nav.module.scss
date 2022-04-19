@@ -1,29 +1,50 @@
-.nav {
-  height: 120px;
+nav {
+  height: fit-content;
   box-shadow: 0 2px 10px 0 rgba(68, 68, 74, 0.3) inset;
-  background-image: url("../../assets/Nav/Background.jpg");
+  background-image: url("assets/Background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 0 10%;
+  padding: 10px 10%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5em;
+}
+
+.mainLinks {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-  grid-template-rows: 1fr;
   gap: 0.5em 0.5em;
+  a {
+    width: 100%;
+  }
+}
 
+.subLinks {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  a {
+    width: fit-content;
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+}
+
+
+.mainLinks, .subLinks {
+  height: 100%;
   .activeLink {
     background-color: rgba(91, 146, 229, 0.85);
     color: white;
   }
 
   a {
-    height: 75%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 0.1em 0.1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
-    width: 100%;
     background-color: rgba(31, 35, 31, 0.6);
     border: 1px solid #44444A;
     border-radius: 0.2em;
@@ -36,37 +57,44 @@
     transform: scale(1.05);
     transition: 0.3s;
   }
+}
 
-  a h2 {
-    padding-top: 3%;
-    font-size: 1em;
-    font-family: Roboto, serif;
-    font-weight: normal;
-    letter-spacing: 1px;
-    white-space: pre-line;
-    margin: 0 auto;
-  }
-
-  a img {
-    width: 1.5em;
-    height: auto;
-    align-self: center;
-    justify-self: center;
-  }
+.mainLinks a h2 {
+  font-size: 1em;
+  font-family: Roboto, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  margin: 0 auto;
+}
+.subLinks a h3 {
+  font-size: 0.8em;
+  font-family: Roboto, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1140px) {
-  .nav {
+  nav {
+    gap: 1em;
+  }
+  .mainLinks {
     padding: 0 2%;
-    font-size: 0.8em;
-    a img {
-      width: 2em;
-    }
+    font-size: 0.7em;
+  }
+  .subLinks {
+    padding: 0 2%;
+    font-size: 0.7em;
   }
 }
 
 @media screen and (max-width: 780px) {
-  .nav {
+  nav {
+    grid-template-rows: 1fr 0.5fr;
+  }
+  .mainLinks {
     height: auto;
     padding: 0.5em;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
@@ -87,8 +115,23 @@
   }
 }
 
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 500px) {
   .nav {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .mainLinks {
     grid-template-columns: 1fr;
+  }
+  nav {
+    grid-template-rows: 1fr 0.4fr;
+  }
+  .subLinks {
+    flex-wrap: wrap;
+    a {
+      height: 30%;
+    }
   }
 }
