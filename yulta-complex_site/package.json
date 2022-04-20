@@ -23,7 +23,7 @@
     "presite": "presite ./build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "netlify deploy --prod"
+    "deploy": "netlify deploy --dir=C:\\Users\\Вадим\\Documents\\GitHub\\YULTA-complex\\yulta-complex_site\\build --prod"
   },
   "author": "Vadim Prikhodko",
   "e-mail": "vp090391@gmail.com",

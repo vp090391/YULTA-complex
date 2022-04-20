@@ -33,8 +33,9 @@ nav {
 }
 .subLinks a {
   width: fit-content;
+  height: fit-content;
   margin: 0 5px;
-  padding: 0 10px;
+  padding: 5px 10px;
   border: 1px solid rgba(91, 146, 229, 0.6);
   box-shadow: 0 0 8px 3px rgba(91, 146, 229, 0.85);
 }
@@ -95,7 +96,7 @@ nav {
 
   .subLinks {
     padding: 0 2%;
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 840px) {
@@ -106,6 +107,7 @@ nav {
   .mainLinks {
     height: auto;
     padding: 0.5em;
+    font-size: 1em;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
   }
   .mainLinks a {
@@ -121,6 +123,16 @@ nav {
   .mainLinks a:hover {
     transform: scale(1.05);
   }
+
+  .subLinks {
+    height: fit-content;
+    padding: 0.5em;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+  }
+  .subLinks a {
+    margin: 10px;
+  }
 }
 @media screen and (max-width: 500px) {
   .nav {
@@ -134,13 +146,6 @@ nav {
 
   nav {
     grid-template-rows: 1fr 0.4fr;
-  }
-
-  .subLinks {
-    flex-wrap: wrap;
-  }
-  .subLinks a {
-    height: 30%;
   }
 }
 
