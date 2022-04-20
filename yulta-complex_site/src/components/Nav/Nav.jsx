@@ -28,7 +28,7 @@ class Nav extends Component {
                     title: 'Декларирование \n соответствия',
                     sublinks: {
                         tr_2009_013_by: 'ТР 2009/013/ВY',
-                        tr_ts_005_2011: 'ТР 2009/013/ВY',
+                        tr_ts_005_2011: 'ТР ТС 005/2011',
                         marks_of_conformity_and_accreditation: 'Применение знаков соответствия, \n' +
                             'знаков аккредитации',
                         complaints_and_appeals: 'Порядок рассмотрения жалоб и апелляций'
@@ -96,7 +96,6 @@ class Nav extends Component {
                         }
                         return (
                             <NavLink exact to={`/${link[0]}`}
-                                     className={`${clazz}`}
                                      style={clazz}
                                      onClick={() => this.comparePathNames(link[0])}
                                      key={index}>

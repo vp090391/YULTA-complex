@@ -13,28 +13,6 @@
   grid-template-areas: "section" "aside";
 }
 
-.aside {
-  grid-area: aside;
-  text-align: center;
-  justify-self: center;
-  margin: 1.5em 0;
-  width: 100%;
-  height: fit-content;
-}
-.aside div {
-  margin: 0 auto;
-  position: relative;
-  height: 1270px;
-  width: 100%;
-  max-width: 580px;
-}
-.aside iframe {
-  border: 1px solid rgba(68, 68, 74, 0.3);
-  box-shadow: 0 3px 5px 0 rgba(68, 68, 74, 0.3);
-  width: 98%;
-  height: 100%;
-}
-
 .section {
   grid-area: section;
   margin: 0 2em 0 2em;
@@ -113,4 +91,4 @@
   }
 }
 
-/*# sourceMappingURL=CertTr2009013by.module.css.map */
+/*# sourceMappingURL=DeclTrTs0052011.module.css.map */
