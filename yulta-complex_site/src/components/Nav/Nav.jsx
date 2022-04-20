@@ -11,8 +11,8 @@ class Nav extends Component {
                 laboratory: {
                     title: 'Проведение \n испытаний',
                     sublinks: {
-                        request: 'Подать заявку \n на испытания',
-                        accreditation: 'Область \n аккредитации'
+                        request: 'Подать заявку на испытания',
+                        accreditation: 'Область аккредитации'
                     }
                 },
                 certification: {
