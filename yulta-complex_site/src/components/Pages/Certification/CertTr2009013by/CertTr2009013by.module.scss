@@ -70,18 +70,24 @@
 
   section {
     text-align: left;
+    p a {
+      color: #44444A;
+    }
     a {
       color: #5B92E5;
     }
-    section:nth-child(3){
-      p:nth-child(3){
-        margin: 0 0 0 1em;
-      }
-
+    ul {
+      margin: 0;
+      padding: 0 0 2em 1em;
     }
-  }
-  .section_1 {
-    margin-left: 0;
+
+    li {
+      color: #399D37;
+
+      span {
+        color: #44444A;
+      }
+    }
   }
 }
 

@@ -36,7 +36,7 @@ import slideImg12_small from "./assets/Foto/SliderImages/Small/12_Pulling_fiberg
 import slideImg13_small from "./assets/Foto/SliderImages/Small/13_Tensile_testing_of_plastic_pipes.jpg";
 
 const Accreditation = () => {
-    let state = {
+    const state = {
         article: {
             section_1: {
                 header: 'ИЛ ООО «ЮЛТА-комплекс» испытывает строительные материалы и продукцию \n' +

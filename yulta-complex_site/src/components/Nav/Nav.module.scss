@@ -18,6 +18,11 @@ nav {
   gap: 0.5em 0.5em;
   a {
     width: 100%;
+    border: 1px solid #44444A;
+  }
+  .activeLink {
+    border: 1px solid rgba(91, 146, 229, 0.6);
+    box-shadow: 0 0 8px 1px rgba(91, 146, 229, 0.85);
   }
 }
 
@@ -28,10 +33,14 @@ nav {
   a {
     width: fit-content;
     margin: 0 5px;
-    padding: 0 5px;
+    padding: 0 10px;
+    border: 1px solid rgba(91, 146, 229, 0.6);
+    box-shadow: 0 0 8px 3px rgba(91, 146, 229, 0.85);
+  }
+  a:hover {
+    background-color: rgba(91, 146, 229, 0.85);
   }
 }
-
 
 .mainLinks, .subLinks {
   height: 100%;
@@ -46,7 +55,6 @@ nav {
     align-items: center;
     box-sizing: border-box;
     background-color: rgba(31, 35, 31, 0.6);
-    border: 1px solid #44444A;
     border-radius: 0.2em;
     text-decoration: none;
     text-align: center;
@@ -63,7 +71,7 @@ nav {
   font-size: 1em;
   font-family: Roboto, serif;
   font-weight: normal;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   white-space: pre-line;
   margin: 0 auto;
 }
@@ -71,7 +79,7 @@ nav {
   font-size: 0.8em;
   font-family: Roboto, serif;
   font-weight: normal;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   white-space: pre-line;
   margin: 0 auto;
 }
@@ -90,7 +98,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 840px) {
   nav {
     grid-template-rows: 1fr 0.5fr;
   }

@@ -65,14 +65,21 @@
 .section section {
   text-align: left;
 }
+.section section p a {
+  color: #44444A;
+}
 .section section a {
   color: #5B92E5;
 }
-.section section section:nth-child(3) p:nth-child(3) {
-  margin: 0 0 0 1em;
+.section section ul {
+  margin: 0;
+  padding: 0 0 2em 1em;
 }
-.section .section_1 {
-  margin-left: 0;
+.section section li {
+  color: #399D37;
+}
+.section section li span {
+  color: #44444A;
 }
 
 .bolded {
@@ -106,4 +113,4 @@
   }
 }
 
-/*# sourceMappingURL=MakeRequest.module.css.map */
+/*# sourceMappingURL=CertTr2009013by.module.css.map */

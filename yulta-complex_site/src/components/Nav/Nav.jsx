@@ -44,11 +44,15 @@ class Nav extends Component {
         }
     }
 
+    observer = new MutationObserver(() => this.comparePathNames(window.location.pathname.slice(1)));
+
     componentDidMount() {
         let pathname = window.location.pathname.slice(1);
         this.setState({
             selectedPage: pathname ? pathname : ''
         });
+
+        this.observer.observe(document, {subtree: true, childList: true});
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -58,6 +62,10 @@ class Nav extends Component {
                 selectedPage: pathname ? pathname : ''
             });
         }
+    }
+
+    componentWillUnmount() {
+        this.observer.disconnect()
     }
 
     comparePathNames = (path) => {
@@ -81,14 +89,15 @@ class Nav extends Component {
                         if (selectedPage && selectedPage.split('/')[0] === link[0]) {
                             clazz = {
                                 background: 'rgba(91, 146, 229, 0.85)',
-                                color: 'white'
+                                color: 'white',
+                                border: '1px solid rgba(91, 146, 229, 0.6)',
+                                boxShadow: '0 0 8px 1px rgba(91, 146, 229, 0.85)'
                             }
                         }
                         return (
                             <NavLink exact to={`/${link[0]}`}
                                      className={`${clazz}`}
                                      style={clazz}
-                                     activeClassName={s.activeLink}
                                      onClick={() => this.comparePathNames(link[0])}
                                      key={index}>
                                 <h2>{link[1].title}</h2>
