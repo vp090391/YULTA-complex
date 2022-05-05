@@ -44,7 +44,7 @@ class Nav extends Component {
         }
     }
 
-    observer = new MutationObserver(() => this.comparePathNames(window.location.pathname.slice(1)));
+    observer = new MutationObserver(() => this.onCategorySelect(window.location.pathname.slice(1)));
 
     componentDidMount() {
         let pathname = window.location.pathname.slice(1);
@@ -54,7 +54,6 @@ class Nav extends Component {
 
         this.observer.observe(document, {subtree: true, childList: true});
     }
-
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevState.selectedPage !== this.state.selectedPage) {
             let pathname = window.location.pathname.slice(1);
@@ -68,7 +67,7 @@ class Nav extends Component {
         this.observer.disconnect()
     }
 
-    comparePathNames = (path) => {
+    onCategorySelect = (path) => {
         let lastPathName = this.state.selectedPage;
         if (lastPathName !== path ) {
             this.setState({
@@ -76,7 +75,6 @@ class Nav extends Component {
             });
         }
     };
-
 
     render() {
         const { selectedPage,
@@ -97,7 +95,7 @@ class Nav extends Component {
                         return (
                             <NavLink exact to={`/${link[0]}`}
                                      style={clazz}
-                                     onClick={() => this.comparePathNames(link[0])}
+                                     onClick={() => this.onCategorySelect(link[0])}
                                      key={index}>
                                 <h2>{link[1].title}</h2>
                             </NavLink>
@@ -111,12 +109,23 @@ class Nav extends Component {
                             if (selectedPage.split('/')[0] === link[0] && link[1].sublinks) {
                                 return (
                                     Object.entries(link[1].sublinks).map((sublink, index ) => {
+                                        let clazzA;
+                                        let clazzH;
+                                        if (sublink[0] === 'marks_of_conformity_and_accreditation'){
+                                            clazzA = {
+                                                padding: '5px 10px'
+                                            };
+                                            clazzH = {
+                                                fontSize: '0.8em'
+                                            }
+                                        }
                                         return (
                                             <NavLink exact to={`/${link[0]}/${sublink[0]}`}
                                                      activeClassName={s.activeLink}
-                                                     onClick={() => this.comparePathNames(sublink[0])}
+                                                     style={clazzA}
+                                                     onClick={() => this.onCategorySelect(sublink[0])}
                                                      key={index}>
-                                                <h3>{sublink[1]}</h3>
+                                                <h3 style={clazzH}>{sublink[1]}</h3>
                                             </NavLink>
                                         )
                                     })
@@ -130,9 +139,5 @@ class Nav extends Component {
         )
     }
 }
-
-/*const Nav = () => {
-
-};*/
 
 export default Nav;

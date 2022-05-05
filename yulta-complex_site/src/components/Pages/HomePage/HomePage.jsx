@@ -3,8 +3,10 @@ import s from './HomePage.module.scss'
 import {NavLink} from "react-router-dom";
 import ModalImage from "react-modal-image";
 
-import certificationCertificateImg from "./assets/Certification_certificate.jpg";
-import certificationCertificateImg_small from "./assets/Certification_certificate_small.jpg";
+import laboratoryCertificateImg from '../Laboratory/Laboratory/assets/Аттестат Лаборатория.jpg';
+import laboratoryCertificateImg_small from '../Laboratory/Laboratory/assets/Аттестат Лаборатория_small.jpg';
+import certificationCertificateImg from "../Certification/Certification/assets/Аттестат Орган.jpg";
+import certificationCertificateImg_small from "../Certification/Certification/assets/Аттестат Орган_small.jpg";
 
 const HomePage = () => {
     return (
@@ -26,7 +28,7 @@ const HomePage = () => {
                         - сертификация продукции
                     </NavLink>
                     <br/><NavLink exact to='/declaration'>
-                        - декларирование соответсвия
+                        - декларирование соответствия
                     </NavLink>
                 </p>
 
@@ -34,19 +36,29 @@ const HomePage = () => {
                 </p>
 
                 <p>Будем рады сотрудничеству!</p>
+
+{/*                <section>
+                    <h2>Новости</h2>
+
+                    <p>
+                        05 мая 2022 г.
+                        <br/>Новость об изменениях в некоторых технический регламентах
+                    </p>
+                </section>*/}
+
             </section>
 
             <aside className={s.aside}>
                 <ModalImage
-                    small={certificationCertificateImg_small}
-                    large={certificationCertificateImg}
-                    alt='Аттестат аккредитации'
+                    small={laboratoryCertificateImg_small}
+                    large={laboratoryCertificateImg}
+                    alt='Аттестат аккредитации Испытательной лаборатории'
                     hideZoom={true}
                 />
                 <ModalImage
                     small={certificationCertificateImg_small}
                     large={certificationCertificateImg}
-                    alt='Заяявление о беспристрастности'
+                    alt='Аттестат аккредитации Органа по сертификации продукции'
                     hideZoom={true}
                 />
             </aside>

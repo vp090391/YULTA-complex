@@ -18,8 +18,7 @@ import DeclTr2009013by from "./components/Pages/Declaration/DeclTr2009013by/Decl
 import DeclTrTs0052011 from "./components/Pages/Declaration/DeclTrTs0052011/DeclTrTs0052011";
 import HomePage from "./components/Pages/HomePage/HomePage";
 
-
-function App(props) {
+function App() {
   return (
     <div className="app-wrapper" id='#app'>
         <Header />

@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom';
 import SwiperComponent from './Swiper/Swiper';
 import ModalImage from "react-modal-image";
 
-import accreditationCertificateImg from "./assets/Accreditation certificate.jpg";
-import accreditationCertificateImg_small from "./assets/Accreditation certificate_small.jpg";
+import accreditationCertificateImg from "./assets/Аттестат Лаборатория.jpg";
+import accreditationCertificateImg_small from "./assets/Аттестат Лаборатория_small.jpg";
 import mls11 from "./assets/MLS/Large/11.jpg";
 import mls10 from "./assets/MLS/Large/10.jpg";
 import mls9 from "./assets/MLS/Large/9.jpg";

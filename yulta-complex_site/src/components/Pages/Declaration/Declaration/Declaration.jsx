@@ -2,10 +2,10 @@ import React from 'react';
 import s from './Declaration.module.scss'
 import ModalImage from "react-modal-image";
 
-import certificationCertificateImg from "./assets/Certification_certificate.jpg";
-import certificationCertificateImg_small from "./assets/Certification_certificate_small.jpg";
-import zayavlenieOBespristrastnostiImg from './assets/Zayavlenie_o_bespristrastnosti.jpg';
-import zayavlenieOBespristrastnostiImg_small from './assets/Zayavlenie_o_bespristrastnosti_small.jpg';
+import certificationCertificateImg from "../../Certification/Certification/assets/Аттестат Орган.jpg";
+import certificationCertificateImg_small from "../../Certification/Certification/assets/Аттестат Орган_small.jpg";
+import zayavlenieOBespristrastnostiImg from '../../Certification/Certification/assets/Заявление о беспристрастности.jpg';
+import zayavlenieOBespristrastnostiImg_small from '../../Certification/Certification/assets/Заявление о беспристрастности_small.jpg';
 
 const Declaration = () => {
     return (
