@@ -16,6 +16,9 @@
   a {
     text-decoration: none;
     color: #44444A;
+    span {
+      font-size: 0.8em;
+    }
   }
 }
 
@@ -69,7 +72,7 @@ a img {
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1300px) {
   .header {
     font-size: 0.6em;
     padding: 0 2%;
@@ -82,7 +85,9 @@ a img {
   }
 }
 
-@media screen and (max-width: 767px) {
+
+
+@media screen and (max-width: 840px) {
   .header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50% 50%;
