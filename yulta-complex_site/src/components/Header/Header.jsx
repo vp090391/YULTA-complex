@@ -49,11 +49,21 @@ const Header = () => {
             </div>
 
             <div className={s.mail_wrapper}>
-                <a className={s.mail}
-                   href='mailto:info@yulta.by?subject=Заявка_на_испытания'
-                   title='Написать письмо'>
-                    info@yulta.by
-                </a>
+                <ul className={s.mail}>
+                    <li>e-mail:</li>
+                    <li>
+                        <a href='mailto:info@yulta.by?subject=Заявка_на_испытания'
+                           title='Написать письмо'>
+                            info@yulta.by
+                        </a>
+                    </li>
+                    <li>
+                        <a href='mailto:sert@yulta.by?subject=Заявка_на_сертификацию'
+                           title='Написать письмо'>
+                            sert@yulta.by
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <div className={s.coordinatesImage_wrapper}>

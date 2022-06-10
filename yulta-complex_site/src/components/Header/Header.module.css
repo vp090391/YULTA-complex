@@ -59,25 +59,20 @@ a img {
   height: 100%;
 }
 
-.phoneNumbers {
-  grid-area: phoneNumbers;
+.phoneNumbers, .mail {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: fit-content;
 }
-.phoneNumbers li {
-  margin: 1% 0;
+.phoneNumbers li, .mail li {
+  margin: 5px 0;
 }
 
 @media screen and (max-width: 1300px) {
   .header {
     font-size: 0.6em;
     padding: 0 2%;
-  }
-
-  .phoneNumbers li {
-    margin: 5% 0;
   }
 
   .coordinates_wrapper {

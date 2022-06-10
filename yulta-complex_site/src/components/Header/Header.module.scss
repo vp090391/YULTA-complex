@@ -60,15 +60,14 @@ a img {
   height: 100%;
 }
 
-.phoneNumbers {
-  grid-area: phoneNumbers;
+.phoneNumbers, .mail {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: fit-content;
 
   li {
-    margin: 1% 0;
+    margin: 5px 0;
   }
 }
 
@@ -77,15 +76,10 @@ a img {
     font-size: 0.6em;
     padding: 0 2%;
   }
-  .phoneNumbers li {
-    margin: 5% 0;
-  }
   .coordinates_wrapper {
     line-height: 150%;
   }
 }
-
-
 
 @media screen and (max-width: 840px) {
   .header {
