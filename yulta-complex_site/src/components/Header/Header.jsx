@@ -13,7 +13,7 @@ const Header = () => {
 
             <div className={s.phoneImage_wrapper}>
                 <a className={s.phoneImage}
-                   href='tel:+375175076853'
+                   href='tel:+88002225460'
                    title='Позвонить'>
                 </a>
             </div>

@@ -6,6 +6,7 @@ import ModalImage from "react-modal-image";
 
 import accreditationCertificateImg from "./assets/Аттестат Лаборатория.jpg";
 import accreditationCertificateImg_small from "./assets/Аттестат Лаборатория_small.jpg";
+import mls12 from "./assets/MLS/Large/12.jpg";
 import mls11 from "./assets/MLS/Large/11.jpg";
 import mls10 from "./assets/MLS/Large/10.jpg";
 import mls9 from "./assets/MLS/Large/9.jpg";
@@ -16,7 +17,7 @@ import mls5 from "./assets/MLS/Large/5.jpg";
 import mls4 from "./assets/MLS/Large/4.jpg";
 import mls3 from "./assets/MLS/Large/3.jpg";
 import mls2 from "./assets/MLS/Large/2.jpg";
-import mls1 from "./assets/MLS/Large/1.jpg";
+import mls12_small from "./assets/MLS/Small/12.jpg";
 import mls11_small from "./assets/MLS/Small/11.jpg";
 import mls10_small from "./assets/MLS/Small/10.jpg";
 import mls9_small from "./assets/MLS/Small/9.jpg";
@@ -27,7 +28,6 @@ import mls5_small from "./assets/MLS/Small/5.jpg";
 import mls4_small from "./assets/MLS/Small/4.jpg";
 import mls3_small from "./assets/MLS/Small/3.jpg";
 import mls2_small from "./assets/MLS/Small/2.jpg";
-import mls1_small from "./assets/MLS/Small/1.jpg";
 
 const AboutLaboratory = () => {
     let state = {
@@ -40,8 +40,8 @@ const AboutLaboratory = () => {
             },
             mls: {
                 alt: ['Сертификат участника проверки квалификации'],
-                large: [mls11, mls10, mls9, mls8, mls7, mls6, mls5, mls4, mls3, mls2, mls1],
-                small: [mls11_small, mls10_small, mls9_small, mls8_small, mls7_small, mls6_small, mls5_small, mls4_small, mls3_small, mls2_small, mls1_small],
+                large: [mls12, mls11, mls10, mls9, mls8, mls7, mls6, mls5, mls4, mls3, mls2],
+                small: [mls12_small, mls11_small, mls10_small, mls9_small, mls8_small, mls7_small, mls6_small, mls5_small, mls4_small, mls3_small, mls2_small],
             }
         }
     };

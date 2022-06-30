@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51f79fa25af408aaadf9807b89eba46d",
+    "revision": "6cdc3ebd8bbafaff4ba655d12040e643",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.acd22647.chunk.css"
   },
   {
-    "revision": "449c05338d0cc3919bcc",
+    "revision": "2ea9e0ef93c65bedb894",
     "url": "/static/css/main.7ad4e174.chunk.css"
   },
   {
@@ -20,20 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2f00e5aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "449c05338d0cc3919bcc",
-    "url": "/static/js/main.532a1fc8.chunk.js"
+    "revision": "2ea9e0ef93c65bedb894",
+    "url": "/static/js/main.0cec81ad.chunk.js"
   },
   {
     "revision": "f4c6c4a615e214d73497",
     "url": "/static/js/runtime-main.8bf174bd.js"
-  },
-  {
-    "revision": "7ea2f15b61a423da214a852adf1b016e",
-    "url": "/static/media/1.7ea2f15b.jpg"
-  },
-  {
-    "revision": "b63ecf10481346fe93f8de31e902ad4a",
-    "url": "/static/media/1.b63ecf10.jpg"
   },
   {
     "revision": "46051f1b82d156ce392dd2151c56c619",
@@ -62,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed422b66dfa791800cb2a44f22002a5c",
     "url": "/static/media/11_Geometric_dimensions_of_ceramic_tiles.ed422b66.jpg"
+  },
+  {
+    "revision": "0d982c58a70954f624997ff0ed979001",
+    "url": "/static/media/12.0d982c58.jpg"
+  },
+  {
+    "revision": "ecc457f46512582d341ca00ce863ed4f",
+    "url": "/static/media/12.ecc457f4.jpg"
   },
   {
     "revision": "415d24eb5feaa0099982551ff438498a",
