@@ -7,6 +7,7 @@ import laboratoryCertificateImg from '../Laboratory/Laboratory/assets/Аттес
 import laboratoryCertificateImg_small from '../Laboratory/Laboratory/assets/Аттестат Лаборатория_small.jpg';
 import certificationCertificateImg from "../Certification/Certification/assets/Аттестат Орган.jpg";
 import certificationCertificateImg_small from "../Certification/Certification/assets/Аттестат Орган_small.jpg";
+import newsFoto_1 from './News/newsFoto_1_Heater.jpg';
 
 const HomePage = () => {
     return (
@@ -37,14 +38,18 @@ const HomePage = () => {
 
                 <p>Будем рады сотрудничеству!</p>
 
-{/*                <section>
+                <article className={s.news}>
                     <h2>Новости</h2>
-
-                    <p>
-                        05 мая 2022 г.
-                        <br/>Новость об изменениях в некоторых технический регламентах
-                    </p>
-                </section>*/}
+                    <hr/>
+                    <div>
+                        <img src={newsFoto_1} alt='Heaters'/>
+                        <h3>ВНИМАНИЮ ИЗГОТОВИТЕЛЕЙ И ПОСТАВЩИКОВ ПРОДУКЦИИ</h3>
+                        <p>На территории Республики Беларусь с 01.01.2023 введен в действие ГОСТ 31311-2022 «Приборы отопительные. Общие технические условия». Действие ГОСТ 31311-2005 «Приборы отопительные. Общие технические условия» отменяется с 01.05.2023.</p>
+                        <p>С 01.05.2023 с целью получения сертификатов соответствия на приборы отопительные (конвекторы, радиаторы) необходимо провести испытания или предоставить протоколы испытаний на соответствие требованиям ГОСТ 31311-2022 «Приборы отопительные. Общие технические условия».</p>
+                        <p>Для проведения испытаний и сертификации приборов отопительных на соответствие ГОСТ 31311-2022 Вы можете обратиться в ООО «ЮЛТА-комплекс».</p>
+                    </div>
+                    <hr className={s.lastLine}/>
+                </article>
 
             </section>
 

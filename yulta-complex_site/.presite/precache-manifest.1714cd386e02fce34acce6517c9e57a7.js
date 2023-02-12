@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cdc3ebd8bbafaff4ba655d12040e643",
+    "revision": "bd64d1342bcee635a9523d8a06261132",
     "url": "/index.html"
   },
   {
-    "revision": "0b70c69aaf55ec8a69aa",
+    "revision": "efa12e77694fdb73f15b",
     "url": "/static/css/2.acd22647.chunk.css"
   },
   {
-    "revision": "2ea9e0ef93c65bedb894",
-    "url": "/static/css/main.7ad4e174.chunk.css"
+    "revision": "465658f85975ed4d2e5e",
+    "url": "/static/css/main.4c173f73.chunk.css"
   },
   {
-    "revision": "0b70c69aaf55ec8a69aa",
-    "url": "/static/js/2.2f00e5aa.chunk.js"
+    "revision": "efa12e77694fdb73f15b",
+    "url": "/static/js/2.087a25d2.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.2f00e5aa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.087a25d2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ea9e0ef93c65bedb894",
-    "url": "/static/js/main.0cec81ad.chunk.js"
+    "revision": "465658f85975ed4d2e5e",
+    "url": "/static/js/main.2d2ff12a.chunk.js"
   },
   {
     "revision": "f4c6c4a615e214d73497",
@@ -226,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "431421939e00889e20634a624933bfce",
     "url": "/static/media/background_ladaVesta.43142193.jpg"
+  },
+  {
+    "revision": "a500840339fc10ba346b1fae0f702c96",
+    "url": "/static/media/newsFoto_1_Heater.a5008403.jpg"
   },
   {
     "revision": "2075a9c823e2b907b3db920b9e63d364",
