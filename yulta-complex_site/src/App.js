@@ -17,6 +17,8 @@ import Declaration from "./components/Pages/Declaration/Declaration/Declaration"
 import DeclTr2009013by from "./components/Pages/Declaration/DeclTr2009013by/DeclTr2009013by";
 import DeclTrTs0052011 from "./components/Pages/Declaration/DeclTrTs0052011/DeclTrTs0052011";
 import HomePage from "./components/Pages/HomePage/HomePage";
+import CertInformation from "./components/Pages/Certification/CertInformation/CertInformation";
+import DecInformation from "./components/Pages/Declaration/DecInformation/DecInformation";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
                        render={() => <MarksOfConformity />}/>
                 <Route exact path='/certification/complaints_and_appeals'
                        render={() => <ComplaintsAndAppeals />}/>
+                <Route exact path='/certification/information'
+                       render={() => <CertInformation />}/>
 
                 <Route exact path='/declaration'
                        render={() => <Declaration />}/>
@@ -54,6 +58,8 @@ function App() {
                        render={() => <MarksOfConformity />}/>
                 <Route exact path='/declaration/complaints_and_appeals'
                        render={() => <ComplaintsAndAppeals />}/>
+                <Route exact path='/declaration/information'
+                       render={() => <DecInformation />}/>
 
                 <Route exact path='/comments'
                        render={() => <Comments />}/>

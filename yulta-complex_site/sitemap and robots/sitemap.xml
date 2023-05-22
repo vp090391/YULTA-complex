@@ -8,30 +8,6 @@
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://yulta.by/laboratory</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://yulta.by/certification</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://yulta.by/declaration</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://yulta.by/contacts</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://yulta.by/laboratory/</loc>
 	<lastmod>2022-05-05</lastmod>
 	<changefreq>weekly</changefreq>
@@ -74,6 +50,12 @@
 	<priority>0.6</priority>
 </url>
 <url>
+	<loc>https://yulta.by/certification/information</loc>
+	<lastmod>2022-05-05</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
 	<loc>https://yulta.by/declaration/</loc>
 	<lastmod>2022-05-05</lastmod>
 	<changefreq>weekly</changefreq>
@@ -98,54 +80,15 @@
 	<priority>0.6</priority>
 </url>
 <url>
+	<loc>https://yulta.by/declaration/information</loc>
+	<lastmod>2022-05-05</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.6</priority>
+</url>
+<url>
 	<loc>https://yulta.by/contacts/</loc>
 	<lastmod>2022-05-05</lastmod>
 	<changefreq>weekly</changefreq>
 	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://yulta.by/laboratory/request/</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/laboratory/accreditation/</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/certification/complaints_and_appeals/</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/declaration/tr_2009_013_by/</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/declaration/tr_ts_005_2011/</loc>
-	<lastmod>2022-05-05T16:52:20+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/declaration/marks_of_conformity_and_accreditation/</loc>
-	<lastmod>2022-05-05</lastmod>
-	<changefreq>weekly</changefreq>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/certification/tr_2009_013_by/</loc>
-	<lastmod>2022-05-05T16:52:20+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://yulta.by/certification/marks_of_conformity_and_accreditation/</loc>
-	<lastmod>2022-05-05T16:52:20+01:00</lastmod>
-	<priority>0.6</priority>
 </url>
 </urlset>

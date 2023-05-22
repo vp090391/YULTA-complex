@@ -21,7 +21,8 @@ class Nav extends Component {
                         tr_2009_013_by: 'ТР 2009/013/ВY',
                         marks_of_conformity_and_accreditation: 'Применение знаков соответствия, \n' +
                             'знаков аккредитации',
-                        complaints_and_appeals: 'Порядок рассмотрения жалоб и апелляций'
+                        complaints_and_appeals: 'Порядок рассмотрения жалоб и апелляций',
+                        information: 'Информация для Заявителей',
                     }
                 },
                 declaration: {
@@ -31,7 +32,8 @@ class Nav extends Component {
                         tr_ts_005_2011: 'ТР ТС 005/2011',
                         marks_of_conformity_and_accreditation: 'Применение знаков соответствия, \n' +
                             'знаков аккредитации',
-                        complaints_and_appeals: 'Порядок рассмотрения жалоб и апелляций'
+                        complaints_and_appeals: 'Порядок рассмотрения жалоб и апелляций',
+                        information: 'Информация для Заявителей',
                     }
                 },
                 comments: {
