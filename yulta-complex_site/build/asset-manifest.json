@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d740ab12.chunk.css",
-    "main.js": "/static/js/main.0cfc1054.chunk.js",
-    "main.js.map": "/static/js/main.0cfc1054.chunk.js.map",
+    "main.css": "/static/css/main.8c1d809c.chunk.css",
+    "main.js": "/static/js/main.10920b31.chunk.js",
+    "main.js.map": "/static/js/main.10920b31.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8bf174bd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8bf174bd.js.map",
     "static/css/2.acd22647.chunk.css": "/static/css/2.acd22647.chunk.css",
     "static/js/2.d13ff887.chunk.js": "/static/js/2.d13ff887.chunk.js",
     "static/js/2.d13ff887.chunk.js.map": "/static/js/2.d13ff887.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.382e50bb6b85f418e6eb5a2df080f3ec.js": "/precache-manifest.382e50bb6b85f418e6eb5a2df080f3ec.js",
+    "precache-manifest.b19d1538eb858f309a77cfc89287288f.js": "/precache-manifest.b19d1538eb858f309a77cfc89287288f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.acd22647.chunk.css.map": "/static/css/2.acd22647.chunk.css.map",
-    "static/css/main.d740ab12.chunk.css.map": "/static/css/main.d740ab12.chunk.css.map",
+    "static/css/main.8c1d809c.chunk.css.map": "/static/css/main.8c1d809c.chunk.css.map",
     "static/js/2.d13ff887.chunk.js.LICENSE.txt": "/static/js/2.d13ff887.chunk.js.LICENSE.txt",
     "static/media/10.jpg": "/static/media/10.46051f1b.jpg",
     "static/media/10_Concrete_testing.jpg": "/static/media/10_Concrete_testing.c7a64c2a.jpg",
@@ -45,7 +45,7 @@
     "static/media/9.jpg": "/static/media/9.88f858f5.jpg",
     "static/media/9_Water_absorption_of_thermal_insulation_materials.jpg": "/static/media/9_Water_absorption_of_thermal_insulation_materials.cd027390.jpg",
     "static/media/Nav.module.scss": "/static/media/Background.9f461db4.jpg",
-    "static/media/AboutLaboratory.module.scss": "/static/media/background_ladaVesta.43142193.jpg",
+    "static/media/AboutLaboratory.module.scss": "/static/media/background_Car.89c2a7cd.png",
     "static/media/Oblast akkreditacii_YULTA-complex_Full.pdf": "/static/media/Oblast akkreditacii_YULTA-complex_Full.fdefba80.pdf",
     "static/media/newsFoto_1_Heater.jpg": "/static/media/newsFoto_1_Heater.a5008403.jpg",
     "static/media/Акт отбора.docx": "/static/media/Акт отбора.2075a9c8.docx",
@@ -69,7 +69,7 @@
     "static/js/runtime-main.8bf174bd.js",
     "static/css/2.acd22647.chunk.css",
     "static/js/2.d13ff887.chunk.js",
-    "static/css/main.d740ab12.chunk.css",
-    "static/js/main.0cfc1054.chunk.js"
+    "static/css/main.8c1d809c.chunk.css",
+    "static/js/main.10920b31.chunk.js"
   ]
 }

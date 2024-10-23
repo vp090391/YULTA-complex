@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "155e63c33c8a1ec2574c8bc97fb1a7f7",
+    "revision": "7d091fe4f429552a90b802dba91367ea",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.acd22647.chunk.css"
   },
   {
-    "revision": "8c5de8d6e952e41fde06",
-    "url": "/static/css/main.d740ab12.chunk.css"
+    "revision": "37a6f6303f3d16f4a01b",
+    "url": "/static/css/main.8c1d809c.chunk.css"
   },
   {
     "revision": "5488da8858b8e33fe224",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d13ff887.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c5de8d6e952e41fde06",
-    "url": "/static/js/main.0cfc1054.chunk.js"
+    "revision": "37a6f6303f3d16f4a01b",
+    "url": "/static/js/main.10920b31.chunk.js"
   },
   {
     "revision": "f4c6c4a615e214d73497",
@@ -224,8 +224,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Oblast akkreditacii_YULTA-complex_Full.fdefba80.pdf"
   },
   {
-    "revision": "431421939e00889e20634a624933bfce",
-    "url": "/static/media/background_ladaVesta.43142193.jpg"
+    "revision": "89c2a7cdc7aa90d271a3674df81ea7a3",
+    "url": "/static/media/background_Car.89c2a7cd.png"
   },
   {
     "revision": "a500840339fc10ba346b1fae0f702c96",

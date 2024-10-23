@@ -113,6 +113,10 @@ class Nav extends Component {
                                     Object.entries(link[1].sublinks).map((sublink, index ) => {
                                         let clazzA;
                                         let clazzH;
+                                        let clazzName;
+                                        if (sublink[0] === 'request'){
+                                            clazzName = 'animation'
+                                        }
                                         if (sublink[0] === 'marks_of_conformity_and_accreditation'){
                                             clazzA = {
                                                 padding: '5px 10px'
@@ -125,6 +129,7 @@ class Nav extends Component {
                                             <NavLink exact to={`/${link[0]}/${sublink[0]}`}
                                                      activeClassName={s.activeLink}
                                                      style={clazzA}
+                                                     className={clazzName}
                                                      onClick={() => this.onCategorySelect(sublink[0])}
                                                      key={index}>
                                                 <h3 style={clazzH}>{sublink[1]}</h3>
