@@ -54,8 +54,12 @@ nav {
   height: 100%;
   .activeLink {
     background-color: rgba(91, 146, 229, 0.85);
-    color: white;
+    box-shadow: 0 0 8px 3px rgba(91, 146, 229, 0.85) !important;
     animation: none;
+    color: white;
+    h3 {
+      color: white;
+    }
   }
 
   a {
